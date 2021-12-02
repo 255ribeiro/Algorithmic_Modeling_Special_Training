@@ -1,0 +1,82 @@
+site_name: Algorithmic Modeling Special Training
+use_directory_urls: false
+
+copyright: Copyright &copy; 2021 Fernando Ferraz Ribeiro
+
+theme:
+  features:
+
+    #- navigation.sections
+    - toc.integrate
+    #- navigation.tabs
+  name: material   
+  language: en-custom
+  custom_dir: docs\overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  
+
+site_url: "https://255ribeiro.github.io/algorithmic_modeling_special_training/"
+repo_url: "https://github.com/255ribeiro/algorithmic_modeling_special_training/"
+repo_name: "255ribeiro/algorithmic_modeling_special_training" 
+
+nav:
+  - Home: index.md
+  - Instalação das ferramentas: intro_py\instala.md
+  - Primeiros Passos: intro_py\intro_py.md
+  - Programação Científica:
+      - Jupyter notebooks: cientif_py\jupyter_intro.ipynb
+      - numpy: cientif_py\numpy_intro.ipynb
+      - matplotlib: cientif_py\matplotlib_intro.ipynb
+      - scipy: cientif_py\scipy_intro.ipynb
+
+
+  - Manipulação de dados:
+      - pandas: dados_py/pandas_intro.ipynb
+  - Dados geoespaciais:
+    - Geopandas: geo_py/geopandas.md
+    - Google Earth Engine: geo_py/geemap.md
+  - Referências: ref/ref.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - toc:
+      toc_depth: 1
+
+extra_css:
+  - overrides/css/extra_css.css
+
+plugins:
+  - mkdocs-jupyter:
+      #execute: True
+      include_source: True
+
+
+extra:
+  social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/255ribeiro
+      - icon: fontawesome/brands/youtube
+        link: https://www.youtube.com/channel/UCCkMaRdD7PBWhs4JgH5s6_w
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/fernando-ferraz-ribeiro-b49a7bb0/
+      - icon: fontawesome/solid/envelope-square
+        link: mailto:ffribeiro@gmail.com
