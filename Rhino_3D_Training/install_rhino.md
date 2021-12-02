@@ -19,4 +19,5 @@ Why use the English version of Rhino?
 
 
 follow the instructions in the link below to change the program language to English:
+<br>
 [Changing the language](https://wiki.mcneel.com/rhino/6/addlanguages)
