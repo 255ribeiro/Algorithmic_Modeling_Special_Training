@@ -20,7 +20,7 @@
 6. Use Grasshopper as an analysis tool.
 7. Get familiar with programming logic and concepts in Python.
 8. Practice Python basic scientific packages.
-9. Know how to bind Python and Grasshopper tools to solve problems.s
+9. Know how to bind Python and Grasshopper tools to solve problems.
 
 
 
