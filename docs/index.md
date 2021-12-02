@@ -1,6 +1,6 @@
 # Algorithmic Modeling Special training
 
-#### 3D Modeling, Algorithms, Analysis, and Auttomation.
+#### 3D Modeling, Algorithms, Analysis, and Automation.
 
 <img src="https://steel-concrete.ru/upload/medialibrary/57d/RhinoLogoBlock.png" alt="Rhino3D" width="500"/>
 
