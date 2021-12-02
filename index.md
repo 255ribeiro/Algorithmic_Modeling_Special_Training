@@ -13,9 +13,21 @@
 
 ## Objectives:
 
+1. Get familiar with the most common Rhino3D modeling technics applied to architecture.
+2. Know how to organize and your archives and optimize your workflows.
+3. Understand the Grasshopper interface.
+4. Apply Grasshopper logic generate 3d models.
+5. Use Grasshopper to organize your data.
+6. Use Grasshopper as an analysis tool.
+7. Get familiar with programming logic and concepts in Python.
+8. Practice Python basic scientific packages.
+9. Know how to bind Python and Grasshopper tools to solve problems.s
+
 
 
 ## Target Audience:
+
+Architects, Engineers and AEC industry professionals
 
 
 
