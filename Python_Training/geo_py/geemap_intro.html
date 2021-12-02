@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://255ribeiro.github.io/algorithmic_modeling_special_training/dados_py/pandas_intro.html">
+        <link rel="canonical" href="https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/geo_py/geemap_intro.html">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
     
     
       
-        <title>pandas - Algorithmic Modeling Special Training</title>
+        <title>Primeiros passos com o gee - Algorithmic Modeling Special Training</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.a57b2b03.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
         
       
     
@@ -38,7 +38,7 @@
     
     
     
-      <link rel="stylesheet" href="../overrides/css/extra_css.css">
+      <link rel="stylesheet" href="../../overrides/css/extra_css.css">
     
     
       
@@ -59,7 +59,7 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="deep-orange">
   
     
-    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
       <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#arquivo-ibge-2010-bahia-basico" class="md-skip">
+        <a href="#primeiros-passos-com-o-gee" class="md-skip">
           Skip to content
         </a>
       
@@ -82,7 +82,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../index.html" title="Algorithmic Modeling Special Training" class="md-header__button md-logo" aria-label="Algorithmic Modeling Special Training" data-md-component="logo">
+    <a href="../../index.html" title="Algorithmic Modeling Special Training" class="md-header__button md-logo" aria-label="Algorithmic Modeling Special Training" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              pandas
+              Primeiros passos com o gee
             
           </span>
         </div>
@@ -172,7 +172,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../index.html" title="Algorithmic Modeling Special Training" class="md-nav__button md-logo" aria-label="Algorithmic Modeling Special Training" data-md-component="logo">
+    <a href="../../index.html" title="Algorithmic Modeling Special Training" class="md-nav__button md-logo" aria-label="Algorithmic Modeling Special Training" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -204,7 +204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../index.html" class="md-nav__link">
+      <a href="../../index.html" class="md-nav__link">
         Home
       </a>
     </li>
@@ -219,8 +219,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../intro_py/instala.html" class="md-nav__link">
-        Instalação das ferramentas
+      <a href="../../Rhino_3D_Training/install_rhino.html" class="md-nav__link">
+        Rhino3D
       </a>
     </li>
   
@@ -234,8 +234,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../intro_py/intro_py.html" class="md-nav__link">
-        Primeiros Passos
+      <a href="../../Grasshopper_Training/grass_intro.html" class="md-nav__link">
+        Grasshopper
       </a>
     </li>
   
@@ -258,16 +258,44 @@
       
       
         <label class="md-nav__link" for="__nav_4">
-          Programação Científica
+          Python
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Programação Científica" data-md-level="1">
+      <nav class="md-nav" aria-label="Python" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Programação Científica
+          Python
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro_py/instala.html" class="md-nav__link">
+        Instalação das ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro_py/intro_py.html" class="md-nav__link">
+        Primeiros Passos
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -325,134 +353,19 @@
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          Manipulação de dados
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Manipulação de dados" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Manipulação de dados
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          pandas
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="pandas_intro.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../dados_py/pandas_intro.html" class="md-nav__link">
         pandas
       </a>
-      
-        
-
-
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#arquivo-ibge-2010-bahia-basico" class="md-nav__link">
-    arquivo IBGE 2010- Bahia básico
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#arquivo-ibge-2010-bahia-domicilio-renda" class="md-nav__link">
-    arquivo IBGE 2010- Bahia Domicílio renda
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_6">
-          Dados geoespaciais
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Dados geoespaciais" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Dados geoespaciais
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -460,7 +373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../geo_py/geopandas.html" class="md-nav__link">
+      <a href="geopandas.html" class="md-nav__link">
         Geopandas
       </a>
     </li>
@@ -474,7 +387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../geo_py/geemap.html" class="md-nav__link">
+      <a href="geemap.html" class="md-nav__link">
         Google Earth Engine
       </a>
     </li>
@@ -496,7 +409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/ref.html" class="md-nav__link">
+      <a href="../../ref/ref.html" class="md-nav__link">
         Referências
       </a>
     </li>
@@ -515,19 +428,17 @@
             <article class="md-content__inner md-typeset">
               
 
-    <a href="/algorithmic_modeling_special_training/dados_py/pandas_intro.ipynb" title="Download Notebook" class="md-content__button md-icon">
+    <a href="/algorithmic_modeling_special_training/Python_Training/geo_py/geemap_intro.ipynb" title="Download Notebook" class="md-content__button md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg>
     </a>
 
 
 
                 
-                  <a href="https://github.com/255ribeiro/algorithmic_modeling_special_training/edit/master/docs/dados_py/pandas_intro.ipynb" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/255ribeiro/algorithmic_modeling_special_training/edit/master/docs/Python_Training/geo_py/geemap_intro.ipynb" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
-                
-                  <h1>pandas</h1>
                 
                 <style type="text/css">
     
@@ -1027,77 +938,37 @@ all of MD as it is not optimized for dense, information rich UIs.
     }
     init_mathjax();
     </script>
-    <!-- End of mathjax configuration --><div class="jupyter-wrapper"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+    <!-- End of mathjax configuration --><div class="jupyter-wrapper">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="primeiros-passos-com-o-gee">Primeiros passos com o gee<a class="anchor-link" href="#Primeiros-passos-com-o-gee">&#182;</a></h1>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">geemap</span>
 </pre></div>
 
         </div>
     </div>
 
 </div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">idade</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">low</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">high</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
-<span class="n">idade</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([13, 19, 12, 16, 18, 17, 19, 19, 17, 16, 12, 16, 17, 17])</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">dados</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Nome&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Joelande&#39;</span><span class="p">,</span><span class="s1">&#39;Jociara&#39;</span><span class="p">,</span> <span class="s1">&#39;Basilio&#39;</span><span class="p">,</span> <span class="s1">&#39;Mahysa&#39;</span><span class="p">,</span> <span class="s1">&#39;Carlos&#39;</span><span class="p">,</span> <span class="s1">&#39;João Paulo&#39;</span><span class="p">,</span> <span class="s1">&#39;Nilton&#39;</span><span class="p">,</span> <span class="s1">&#39;Ana Paula&#39;</span><span class="p">,</span> <span class="s1">&#39;Hermilino Danilo&#39;</span><span class="p">,</span> <span class="s1">&#39;Paulo Tadeu&#39;</span><span class="p">,</span> <span class="s1">&#39;Evaldo&#39;</span><span class="p">,</span> <span class="s1">&#39;Fernando&#39;</span> <span class="p">,</span> <span class="s1">&#39;Lorena&#39;</span><span class="p">,</span> <span class="s1">&#39;Jailza&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Idade&#39;</span><span class="p">:</span> <span class="n">idade</span>
-<span class="p">}</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">geemap</span><span class="o">.</span><span class="n">Map</span><span class="p">()</span>
 </pre></div>
 
         </div>
@@ -1109,104 +980,12 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dados</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Nome</th>
-      <th>idade</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Joelande</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Jociara</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Basilio</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Mahysa</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Carlos</td>
-      <td>19</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/255ribeiro/curso_python_gis/master/docs/dados_py/heroes_information.csv&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span>
 </pre></div>
 
         </div>
@@ -1226,125 +1005,10 @@ all of MD as it is not optimized for dense, information rich UIs.
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>(734, 11)
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 
 
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Unnamed: 0</th>
-      <th>name</th>
-      <th>Gender</th>
-      <th>Eye color</th>
-      <th>Race</th>
-      <th>Hair color</th>
-      <th>Height</th>
-      <th>Publisher</th>
-      <th>Skin color</th>
-      <th>Alignment</th>
-      <th>Weight</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0</td>
-      <td>A-Bomb</td>
-      <td>Male</td>
-      <td>yellow</td>
-      <td>Human</td>
-      <td>No Hair</td>
-      <td>203.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>441.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>Abe Sapien</td>
-      <td>Male</td>
-      <td>blue</td>
-      <td>Icthyo Sapien</td>
-      <td>No Hair</td>
-      <td>191.0</td>
-      <td>Dark Horse Comics</td>
-      <td>blue</td>
-      <td>good</td>
-      <td>65.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2</td>
-      <td>Abin Sur</td>
-      <td>Male</td>
-      <td>blue</td>
-      <td>Ungaran</td>
-      <td>No Hair</td>
-      <td>185.0</td>
-      <td>DC Comics</td>
-      <td>red</td>
-      <td>good</td>
-      <td>90.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>3</td>
-      <td>Abomination</td>
-      <td>Male</td>
-      <td>green</td>
-      <td>Human / Radiation</td>
-      <td>No Hair</td>
-      <td>203.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>bad</td>
-      <td>441.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>4</td>
-      <td>Abraxas</td>
-      <td>Male</td>
-      <td>blue</td>
-      <td>Cosmic Entity</td>
-      <td>Black</td>
-      <td>-99.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>bad</td>
-      <td>-99.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>Map(center=[40, -100], controls=(WidgetControl(options=[&#39;position&#39;, &#39;transparent_bg&#39;], widget=HBox(children=(T…</pre>
 </div>
 
 </div>
@@ -1353,17 +1017,15 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">fltr</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Gender&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Female&#39;</span>
-<span class="n">df_female</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">fltr</span><span class="p">]</span>
-<span class="n">df_female</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span><span class="o">.</span><span class="n">add_basemap</span><span class="p">(</span><span class="s1">&#39;ROADMAP&#39;</span><span class="p">)</span>
 </pre></div>
 
         </div>
@@ -1372,143 +1034,15 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Unnamed: 0</th>
-      <th>name</th>
-      <th>Gender</th>
-      <th>Eye color</th>
-      <th>Race</th>
-      <th>Hair color</th>
-      <th>Height</th>
-      <th>Publisher</th>
-      <th>Skin color</th>
-      <th>Alignment</th>
-      <th>Weight</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>8</th>
-      <td>8</td>
-      <td>Agent 13</td>
-      <td>Female</td>
-      <td>blue</td>
-      <td>-</td>
-      <td>Blond</td>
-      <td>173.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>61.0</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>24</td>
-      <td>Angel Dust</td>
-      <td>Female</td>
-      <td>yellow</td>
-      <td>Mutant</td>
-      <td>Black</td>
-      <td>165.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>57.0</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>25</td>
-      <td>Angel Salvadore</td>
-      <td>Female</td>
-      <td>brown</td>
-      <td>-</td>
-      <td>Black</td>
-      <td>163.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>54.0</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>26</td>
-      <td>Angela</td>
-      <td>Female</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-99.0</td>
-      <td>Image Comics</td>
-      <td>-</td>
-      <td>bad</td>
-      <td>-99.0</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>38</td>
-      <td>Arachne</td>
-      <td>Female</td>
-      <td>blue</td>
-      <td>Human</td>
-      <td>Blond</td>
-      <td>175.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>63.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">fltr</span> <span class="o">=</span>  <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Gender&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Female&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Race&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Mutant&#39;</span><span class="p">)</span>
-<span class="n">df_female_mut</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">fltr</span><span class="p">]</span>
-<span class="n">df_female_mut</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span><span class="o">.</span><span class="n">basemap_demo</span><span class="p">()</span>
 </pre></div>
 
         </div>
@@ -1517,222 +1051,6 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Unnamed: 0</th>
-      <th>name</th>
-      <th>Gender</th>
-      <th>Eye color</th>
-      <th>Race</th>
-      <th>Hair color</th>
-      <th>Height</th>
-      <th>Publisher</th>
-      <th>Skin color</th>
-      <th>Alignment</th>
-      <th>Weight</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>24</th>
-      <td>24</td>
-      <td>Angel Dust</td>
-      <td>Female</td>
-      <td>yellow</td>
-      <td>Mutant</td>
-      <td>Black</td>
-      <td>165.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>57.0</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>55</td>
-      <td>Aurora</td>
-      <td>Female</td>
-      <td>blue</td>
-      <td>Mutant</td>
-      <td>Black</td>
-      <td>180.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>63.0</td>
-    </tr>
-    <tr>
-      <th>114</th>
-      <td>114</td>
-      <td>Blink</td>
-      <td>Female</td>
-      <td>green</td>
-      <td>Mutant</td>
-      <td>Magenta</td>
-      <td>165.0</td>
-      <td>Marvel Comics</td>
-      <td>pink</td>
-      <td>good</td>
-      <td>56.0</td>
-    </tr>
-    <tr>
-      <th>129</th>
-      <td>129</td>
-      <td>Boom-Boom</td>
-      <td>Female</td>
-      <td>blue</td>
-      <td>Mutant</td>
-      <td>Blond</td>
-      <td>165.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>55.0</td>
-    </tr>
-    <tr>
-      <th>167</th>
-      <td>167</td>
-      <td>Cerebra</td>
-      <td>Female</td>
-      <td>-</td>
-      <td>Mutant</td>
-      <td>-</td>
-      <td>-99.0</td>
-      <td>Marvel Comics</td>
-      <td>-</td>
-      <td>good</td>
-      <td>-99.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df_female_mut</span><span class="p">[</span><span class="s1">&#39;Weight&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>41.0</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df_gb</span> <span class="o">=</span> <span class="n">df_female_mut</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Alignment&#39;</span><span class="p">)</span>
-<span class="n">df_gb</span><span class="p">[</span><span class="s1">&#39;Weight&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>Alignment
-bad        56.500000
-good       37.647059
-neutral    67.000000
-Name: Weight, dtype: float64</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="arquivo-ibge-2010-bahia-bc3a1sico">arquivo IBGE 2010- Bahia <a href="./Basico_BA.csv">b&#225;sico</a><a class="anchor-link" href="#arquivo-IBGE-2010--Bahia-b%C3%A1sico">&#182;</a></h3><h3 id="arquivo-ibge-2010-bahia-domicc3adlio-renda">arquivo IBGE 2010- Bahia <a href="./DomicilioRenda_BA.csv">Domic&#237;lio renda</a><a class="anchor-link" href="#arquivo-IBGE-2010--Bahia-Domic%C3%ADlio-renda">&#182;</a></h3>
-</div>
 </div>
 </div>
 
@@ -1753,41 +1071,6 @@ Name: Weight, dtype: float64</pre>
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../cientif_py/scipy_intro.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: scipy" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              scipy
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../geo_py/geopandas.html" class="md-footer__link md-footer__link--next" aria-label="Next: Geopandas" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Geopandas
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1851,10 +1134,10 @@ Name: Weight, dtype: float64</pre>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.b1047164.min.js"></script>
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
       
     
   </body>

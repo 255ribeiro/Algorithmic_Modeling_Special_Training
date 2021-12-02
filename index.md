@@ -1,17 +1,21 @@
 # Algorithmic Modeling Special training
 
-Automatizando o trabalho de Gis utilizando a linguagem de programação Python.
+3D Modeling, Algorithms, Analysis, and Auttomation.
 
-![python](https://www.python.org/static/img/python-logo@2x.png)
 
-## Objetivos:
+<img src="https://www.python.org/static/img/python-logo@2x.png" alt="Python" width="500"/>
 
-1. Apresentar uma base de lógica de programação
-1. Apresentar os fundamentos da linguagem Python
-1. Apresentar fundamentos de algumas das principais bibliotecas da programação científica do Python
-1. Apresentar fundamentos de algumas das bibliotecas de manipulação de dados geoespacias do Python
+<img src="https://steel-concrete.ru/upload/medialibrary/57d/RhinoLogoBlock.png" alt="Rhino3D" width="500"/>
 
-## Público alvo:
+<img src="https://blog.graphisoftus.com/wp-content/uploads/ghlogo.png" alt="Rhino3D" width="500"/>
 
-Alunos, pesquisadores e profissionais interessados na manipulação de informações geoespaciais e programação.
+
+
+## Objectives:
+
+
+
+## Target Audience:
+
+
 
