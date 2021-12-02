@@ -1,4 +1,4 @@
-# Algorithmic Modeling Special training
+# Algorithmic Modeling Special Training
 
 #### 3D Modeling, Algorithms, Analysis, and Automation.
 
