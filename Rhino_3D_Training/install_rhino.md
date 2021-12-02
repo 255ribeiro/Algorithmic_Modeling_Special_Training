@@ -15,7 +15,7 @@
 
 # Language Packs
 
-Why use the English version of Rhino
+Why use the English version of Rhino?
 
 
 follow the instructions in the link below to change the program language to English:
