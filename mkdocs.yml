@@ -37,20 +37,18 @@ repo_name: "255ribeiro/algorithmic_modeling_special_training"
 
 nav:
   - Home: index.md
-  - Instalação das ferramentas: intro_py\instala.md
-  - Primeiros Passos: intro_py\intro_py.md
-  - Programação Científica:
-      - Jupyter notebooks: cientif_py\jupyter_intro.ipynb
-      - numpy: cientif_py\numpy_intro.ipynb
-      - matplotlib: cientif_py\matplotlib_intro.ipynb
-      - scipy: cientif_py\scipy_intro.ipynb
-
-
-  - Manipulação de dados:
-      - pandas: dados_py/pandas_intro.ipynb
-  - Dados geoespaciais:
-    - Geopandas: geo_py/geopandas.md
-    - Google Earth Engine: geo_py/geemap.md
+  - Rhino3D: Rhino_3D_Training\install_rhino.md
+  - Grasshopper: Grasshopper_Training\grass_intro.md
+  - Python:
+      - Instalação das ferramentas: Python_Training\intro_py\instala.md
+      - Primeiros Passos: Python_Training\intro_py\intro_py.md
+      - Jupyter notebooks: Python_Training\cientif_py\jupyter_intro.ipynb
+      - numpy: Python_Training\cientif_py\numpy_intro.ipynb
+      - matplotlib: Python_Training\cientif_py\matplotlib_intro.ipynb
+      - scipy: Python_Training\cientif_py\scipy_intro.ipynb
+      - pandas: Python_Training\dados_py/pandas_intro.ipynb
+      - Geopandas: Python_Training\geo_py/geopandas.md
+      - Google Earth Engine: Python_Training\geo_py/geemap.md
   - Referências: ref/ref.md
 
 markdown_extensions:
