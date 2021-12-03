@@ -52,7 +52,7 @@ nav:
       - pandas: Python_Training\dados_py/pandas_intro.ipynb
       - Geopandas: Python_Training\geo_py/geopandas.md
       - Google Earth Engine: Python_Training\geo_py/geemap.md
-  - Referências: ref/ref.md
+  - References: ref/ref.md
 
 markdown_extensions:
   - admonition
