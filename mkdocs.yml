@@ -38,7 +38,7 @@ repo_name: "255ribeiro/algorithmic_modeling_special_training"
 nav:
   - Home: index.md
   - Rhino3D: 
-      - Instalation: Rhino_3D_Training\rh_install\install_rhino.md
+      - Install: Rhino_3D_Training\rh_install\install_rhino.md
       - Interface: Rhino_3D_Training\rh_inter\rh_inter.md
       - Aliases: Rhino_3D_Training\rh_aliases\aliases.md
   - Grasshopper: Grasshopper_Training\grass_intro.md
