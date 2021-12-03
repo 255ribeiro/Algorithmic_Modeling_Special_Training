@@ -2,82 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/index.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Grasshopper_Training/grass_intro.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/cientif_py/jupyter_intro.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/cientif_py/matplotlib_intro.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/cientif_py/numpy_intro.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/cientif_py/scipy_intro.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/dados_py/pandas_intro.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/geo_py/geemap.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/geo_py/geemap_intro.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/geo_py/geopandas.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/intro_py/extra_config.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/intro_py/instala.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/intro_py/intro_py.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Python_Training/intro_py/variaveis_e_operadores.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Rhino_3D_Training/install_rhino.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Rhino_3D_Training/rh_aliases/atalhosRhino.html</loc>
+         <lastmod>2021-12-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/Rhino_3D_Training/rh_inter/rh_inter.html</loc>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ref/ref.html</loc>
-         <lastmod>2021-12-02</lastmod>
+         <lastmod>2021-12-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
