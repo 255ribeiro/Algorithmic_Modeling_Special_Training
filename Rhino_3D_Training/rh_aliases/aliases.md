@@ -1,6 +1,6 @@
 # Aliases and Keyboard configuration
 
-In the options 
+### Download aliases file:
 
 [Atalhos](./aliases.txt)
 
