@@ -1,21 +1,23 @@
-# Configurando Atalhos no Rhinoceros3D
+# Aliases and Keyboard configuration
 
-O Rhinoceros3D vem com poucos atalhos configurados previamente. Baixe o arquivo de atalhos no link abaixo:
+In the options 
 
 [Atalhos](./aliases.txt)
 
-Para adicionar atalhos, clique no menu **Tools** e, em seguida, na opção **Options** para abrir a caixa de diálogo de opções.
+1. Go to menu **Tools**
+2. Go to **Options**
 
 ![tools options](./toolsOptions.jpg)
 
-Na caixa de diálogo de opções, escolha **Aliases** em **Rhino Options** e clique no botão **Import**.
+3. Inside **Rhino Options**, choose **Aliases** 
+4. Clck **Import** button.
 
 ![Atalhos](./aliases.jpg)
 
-Navegue até o arquivo criado e clique no botão **Abrir**
+Go to the folder where you have saved the aliases file and click **Open**
 
 ![importando atalhos](./importAli.jpg)
 
-As equivalências entre os atalhos importados e os atalhos padrão do **Autocad** podem ser conferidos no arquivo abaixo:
+List of imported aliases commands and their relation with **Autocad** default aliaes:
 
-[lista de atalhos importados](./atalhosCadRhino.pdf)
+[imported aliases list](./atalhosCadRhino.pdf)
