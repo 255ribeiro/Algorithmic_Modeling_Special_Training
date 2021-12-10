@@ -15,8 +15,7 @@
 4. parabola(par)
 5. hyperbola(hyp)
 6. conic(cn)
-
-
+7. Catenary
 
 ### 3D Curves
 
