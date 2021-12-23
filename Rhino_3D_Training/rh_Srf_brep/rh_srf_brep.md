@@ -1,6 +1,6 @@
 # Surfaces and Breps
 
-[exampe file](../rh_files/Srf_solidos.3dm)
+[exampe file](../rh_files/Srf_Brep.3dm)
 
 ## Surfaces
 
