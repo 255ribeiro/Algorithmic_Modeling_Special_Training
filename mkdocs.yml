@@ -43,6 +43,7 @@ nav:
       - Aliases: Rhino_3D_Training\rh_aliases\aliases.md
       - Curves basics: Rhino_3D_Training\rh_curves_basics\curves_basics.md
       - Surfaces and Breps: Rhino_3D_Training\rh_Srf_brep\rh_srf_brep.md
+      - Modeling execise: Rhino_3D_Training\rh_modeling_example\rh_modeling_example.md
   - Grasshopper: Grasshopper_Training\grass_intro.md
   - Python:
       - Instalação das ferramentas: Python_Training\intro_py\instala.md
