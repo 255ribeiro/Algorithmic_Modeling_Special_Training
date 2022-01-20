@@ -46,8 +46,8 @@ nav:
       - Modeling execise: Rhino_3D_Training\rh_modeling_example\rh_modeling_example.md
   - Grasshopper: Grasshopper_Training\grass_intro.md
   - Python:
-      - Instalação das ferramentas: Python_Training\intro_py\instala.md
-      - Primeiros Passos: Python_Training\intro_py\intro_py.md
+      - Install: Python_Training\intro_py\instala.md
+      - frist steps: Python_Training\intro_py\intro_py.md
       - Jupyter notebooks: Python_Training\cientif_py\jupyter_intro.ipynb
       - numpy: Python_Training\cientif_py\numpy_intro.ipynb
       - matplotlib: Python_Training\cientif_py\matplotlib_intro.ipynb
