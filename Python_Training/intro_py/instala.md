@@ -8,7 +8,7 @@ The official Python distribution is called CPython, and is available  at [Python
 
 ![anaconda inc](figs/anaconda_inc.png)
 
- The installer of the individual version (free of charge) can be downloaded from the link: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual). Or in the menu **Products**, option **Individual Edition**.
+ The installer of the individual editions (free of charge) can be downloaded from the link: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual). Or in the menu **Products**, option **Individual Edition**.
 
 ![anaconda individual](figs/InkedanacondaIndividual_LI.jpg)
 
