@@ -1,40 +1,40 @@
-# Instalação do Python
+# Installing Python
 
-A distribuição oficial do CPython pode ser encontrada na página da Python Foundation, [Python.org](https://www.python.org/). Embora este seja um material rico sobre a linguagem, neste curso vamos utilizar a distribuição **Anaconda**.
+The official Python distribution is called CPython, and is available  at [Python.org](https://www.python.org/). Although there are rich materials about language in that link, in this course we will use the **Anaconda distribution..
 
-## Instalação da distribuição Anaconda
+## Installing Anaconda
 
-**Anaconda** é uma distribuição do Python orientada para programação científica e análise de dados. A página oficial da distribuição é [anaconda.com](https://www.anaconda.com)
+**Anaconda** is a Python distribution oriented to scientific programming and data analysis. The official distribution page is [anaconda.com](https://www.anaconda.com)
 
 ![anaconda inc](figs/anaconda_inc.png)
 
- O instalador da versão individual (gratuita) pode ser baixada no link: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual). Ou pelo menu **Products**, opção **Individual Edition**.
+ The installer of the individual version (free of charge) can be downloaded from the link: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual). Or in the menu **Products**, option **Individual Edition**.
 
 ![anaconda individual](figs/InkedanacondaIndividual_LI.jpg)
 
-Clique no link de download para baixar o instalador. Certifique-se de baixar o executável compatível com seu sistema operacional.
+Click the download link to download the installer. Be sure to download the executable compatible with your operating system.
 
 ![anaconda individual](figs/Inkedanaconda_download_LI.jpg)
 
-## Instalação no Windows
+## On Windows
 
-Siga as instruções:
+Follow the instructions:
 
-1. Execute o instalador
+1. run the onstaller:
     ![instala](figs/Inkedinstalador_01.jpg)
-1. Concorde com os termos do serviço. clique em **I Agree**.
+2. Click **I Agree**.
     ![instala](figs/Inkedinstalador_02.jpg)
-2. Instalar para o usuário atual do computador ou para todos os usuários. O padrão é apenas para o usuário atual **(just me)**. Escolha sua opção e clique em **Next**.
+3. Install for the current user of the computer or for all users. The default is for the current user only **(just me)**. Choose your option and click **Next**.
     ![instala](figs/Inkedinstalador_03.jpg)
-3. Escolha a pasta da instalação e clique em **Next**.
+4. Choose instalation folder and click next **Next**.
     ![instala](figs/Inkedinstalador_04.jpg)
-4. Opções de instalação. Não é recomendado marcar a primeira opção.Pode-se marcar a segunda opção. clique em instalar e aguarde o final do processo. 
+5. Installation options. It is not recommended to check the first option. You can select the second option. click install and wait for the end of the process. 
     ![instala](figs/Inkedinstalador_05.jpg)
 
-## Preparando o ambiente no Windows
+## Setting up on Windows
 
-!!! note Nota
-    As instruções abaixo são baseadas no Windows 10.
+!!! note 
+    The instructions below are based on Windows 10.
 
 ### IDLE
 
@@ -119,4 +119,4 @@ Aperte a tecla **enter** e siga as instruções de instalação e aguarde o fina
 
 
 
-#### FIM
+#### END
