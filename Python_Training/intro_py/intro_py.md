@@ -1,12 +1,36 @@
-# Primeiros Passos
+# First steps
 
-## Console Python
+## IDLE
 
-## Variáveis
+Installed juts for the user:
 
-* Atribuição de valor
+```%USERPROFILE%\anaconda3\Scripts\idle.exe``` <br> or <br> ```%USERPROFILE%\anaconda3\Lib\idlelib\idle.pyw```<br><br>
 
-* tipos de variáveis
+Installed for all users:
+
+```%PROGRAMDATA%\anaconda3\Scripts\idle.exe``` <br> ou <br> ```%PROGRAMDATA%\anaconda3\Lib\idlelib\idle.pyw``` <br><br>
+
+
+Finding the installation path:
+
+On conda prompt, type:
+
+```where anaconda```
+
+add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path.
+
+
+
+
+
+
+## Python console
+
+## Variables
+
+* setting a value
+
+* variable types
     * int
     * Float
     * string
