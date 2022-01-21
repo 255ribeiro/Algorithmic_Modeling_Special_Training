@@ -31,7 +31,7 @@ add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path
     * string
     * bool
 
-[Variáveis e operadores](./variaveis_e_operadores.ipynb)
+[Varables and operators](./variaveis_e_operadores.ipynb)
 
 ## code editors
 
@@ -40,7 +40,7 @@ add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path
     * importing modules and methods
     * user defined functions
 
-[Exrcício Baskara](./Bhaskara.pdf)
+[Exercise Baskara](./Bhaskara.pdf)
 
 ## Data structures - pt 1
 
