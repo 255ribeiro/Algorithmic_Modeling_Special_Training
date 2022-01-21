@@ -19,11 +19,6 @@ On conda prompt, type:
 
 add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path.
 
-
-
-
-
-
 ## Python console
 
 ## Variables
@@ -38,44 +33,42 @@ add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path
 
 [Variáveis e operadores](./variaveis_e_operadores.ipynb)
 
-## Editores de código
+## code editors
 
-* entrada e saída de dados
-* métodos e funções
-    * importação de modulos e métodos
-    * funções definidas pelo usuário
+* data input and output
+* function and methods
+    * importing modules and methods
+    * user defined functions
 
 [Exrcício Baskara](./Bhaskara.pdf)
 
-## Variáveis compostas pt.1
+## Data structures - pt 1
 
-* Listas
-* Strings são listas?
+* Lists
+* Strings as lists?
   
-## Controle de fluxo
+## Flow control
 
-* Condicionais lógicas
+* Boolean conditions
 
     * if
     * else
     * elif
 
-
-
-* Repetições
+* Loops
 
     * while
     * for
-    * recursividade
+    * recursivity
 
-## Variáveis compostas pt.2
+## Data structures pt.2
 
 * set
 * dictionary
 
-## Trabalhando com arquivos
+## handeling files
 
-* Ler arquivo texto
-* escrever arquivo texto
+* how to read txt files files
+* how to write a txt file
 
-
+#### END
