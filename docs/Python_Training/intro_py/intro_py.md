@@ -17,7 +17,7 @@ On conda prompt, type:
 
 ```where anaconda```
 
-add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path.
+add ```Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path.
 
 ## Python console
 

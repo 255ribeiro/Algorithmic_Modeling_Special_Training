@@ -14,7 +14,7 @@ In the anaconda prompt type the command line below:
 
 This command line will update the anaconda environment. Follow the instructions.
 
-![spider](./Up_spyder_02.jpg)
+![spider](./Up_spyder_02.png)
 
 To update Spyder, type the command below and follow the instructions:
 
@@ -24,13 +24,13 @@ To update Spyder, type the command below and follow the instructions:
 
 To launch the Spyder IDE go to:
 
-    1. Windows start menu -> anaconda folder -> Spyder
+    Windows start menu -> anaconda folder -> Spyder
 
 ![spider](./spyder_launch_01.jpg)
 
 In the first run of the IDE, a message will pop-up asking if you want to take an interface tour. If you don't see this message and want to see the interface tour, go to:
 
-Help -> Show tour
+    Help -> Show tour
 
 ![spider](./spyder_launch_02.jpg)
 
