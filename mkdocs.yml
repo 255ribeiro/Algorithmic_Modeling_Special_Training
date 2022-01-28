@@ -48,6 +48,7 @@ nav:
   - Python:
       - Install: Python_Training\intro_py\instala.md
       - frist steps: Python_Training\intro_py\intro_py.md
+      - Spyder IDE intro: Python_Training\cientif_py\spyder_intro.md
       - Jupyter notebooks: Python_Training\cientif_py\jupyter_intro.ipynb
       - numpy: Python_Training\cientif_py\numpy_intro.ipynb
       - matplotlib: Python_Training\cientif_py\matplotlib_intro.ipynb
