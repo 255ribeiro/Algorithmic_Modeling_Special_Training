@@ -72,6 +72,8 @@ add ```Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file p
     * for
     * recursivity
 
+[guess the number game](./python_example/guess_the_number.ipynb)
+
 ## importing modules
 
 ## Data structures pt.2
