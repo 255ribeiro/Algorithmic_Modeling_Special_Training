@@ -42,10 +42,21 @@ add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path
 
 [Exercise Baskara](./Bhaskara.pdf)
 
+## Keywords and Functions
+
+- [Python 3 keywords](https://docs.python.org/3/reference/lexical_analysis.html#keywords)
+- [Python 3 Functions](https://docs.python.org/3.7/library/functions.html#built-in-functions)
+
+## User defined functions
+
 ## Data structures - pt 1
 
 * Lists
-* Strings as lists?
+* tuples
+* Strings (as lists of characters)
+
+[data structures pt1](./datastructures.ipynb)
+
   
 ## Flow control
 
@@ -60,6 +71,8 @@ add Lib\idlelib\idle.pyw``` or ```\Scripts\idle.exe``` to the outputed file path
     * while
     * for
     * recursivity
+
+## importing modules
 
 ## Data structures pt.2
 
