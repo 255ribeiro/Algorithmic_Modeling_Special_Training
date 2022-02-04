@@ -9,7 +9,7 @@ Sliders are the main components for controlling and exploring the set of possibl
 
  __________ 
  
- ## How to add a slider to an algorithm
+## How to add a slider to an algorithm
  
  ![how to create a slider component](slider_loc.png)
  
