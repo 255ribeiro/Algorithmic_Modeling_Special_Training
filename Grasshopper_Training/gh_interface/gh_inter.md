@@ -1,9 +1,13 @@
 # Interface
 
+**Grasshopper** is a tool 
 _______________
 ## Opening Grasshopper Window
 
-To start the Grasshopper plug-in, type **Grasshopper** on the **Rhino**command line, or click the **Grasshopper** icon on the **Standard**tab, as shown below:
+To start **Grasshopper**, there are two options:
+
+ 1. type **Grasshopper** on the **Rhino**command line
+ 1. Click the **Grasshopper** icon on the **Rhinoceros** **Standard** tab, as shown below:
 
 ![launch](./gh_launch.jpg)
 
