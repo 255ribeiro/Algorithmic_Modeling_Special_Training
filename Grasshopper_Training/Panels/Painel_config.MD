@@ -1,77 +1,72 @@
-# Panels : O que é são, onde vivem e o que comem?
+# Panels : What are they, where do you live and what do you eat? 
 
-_____________
+_____________ 
 
-[Arquivo exemplo](./panels_ex_01.gh)
-
-__________
-
-## O que é são?
+[Sample file] (./panels_ex_01.gh) __________ 
 
 
-Os **panels** (painéis) são componentes muito versáteis do **Grasshopper**, muito utilizados, tanto para entrada quando para saída de dados nos algoritmos.
+## What are they?
 
+The **panels** (panels) are very popular components of **Grasshopper**, widely used, both for input and for data output in algorithms.
 
-__________
-## Onde vivem?
-
-![paineis](./panel_01.jpg)
-
-O componente *Panels* pode ser encontrado na aba **Params**, na paleta **Input**. como mostrado na figura acima.
-
-Também podem ser carregados por atalho, clicando duas vezes na tela e digitando duas barras de divisão:
-
+ __________ 
+ 
+ ## Where do you live? 
+ 
+ ![panels](./panel_01.jpg) 
+ 
+ The *Panels* component can be found in the **Params** tab in the **Input** palette. as shown in the figure above. They can also be loaded by shortcut by double-clicking on the screen and typing two split bars:
+ 
 ``` Python
 //
 ```
 
-Eles se alimentam de dados de diversos tipos: em sua maioria, textos. 
 
 __________
-## O que comem?
+## What do you eat?
 
+They feed on data of various types: mostly texts. They can be fed with the output of a component (data output) or have data entered manually (data entry).
 
-Eles se alimentam de dados de diversos tipos: em sua maioria, textos. Podem ser alimentados com a saída de um componente (saída  de dados) ou ter dados inseridos manualmente (entrada de dados).
+### Data output
 
-### Saída de dados
-
-Quando se quer enxergar os dados de uma das saídas de um componente, conecta-se um painel nesta saída. na figura abaixo vemos três **panels** conectados à cada uma das saídas de um componente **Divide Curve**.
+When you want to see the data from one of the outputs of a component, you connect a panel to this output. in the figure below we see three **panels** connected to each of the outputs of a **Divide Curve** component.
 
 ![paineis](./painel02.png)
 
-A saída **Points** mostra na tela os pontos que dividem a curva, no painel, vemos os valores das coordenadas desses mesmos pontos.
+The output **Points** shows on the screen the points that divide the curve, in the panel we see the coordinate values of those same points.
 
-### Como entrada de dados
+### Data input
 
-Os dados podem ser inseridos manualmente de diferentes maneiras: 
+Data can be entered manually in different ways:
 
-1. clicando duas vezes em um slider e digitando os caracteres desejados.
-   ![painel](./panel03a_1.png)
-   ![painel](./panel03a_2.png)
-2. clicando em um slider com o botão direito e escolhendo a opção **Edit Notes**
-    ![paineis](./panel03b_1.png)
-    ![paineis](./panel03b_2.png)
-3. digitando o atalho ``` // ```, digitando o texto desejado e apertando a tecla **enter**.
-    ![paineis](./panel03c.jpg)
+1. Double-clicking on a slider and typing the desired characters. 
+   ! [panel](./panel03a_1.png)
+   ! [panel](./panel03a_2.png)
+   
+2. clicking a right-click slider and choosing the **Edit Notes** option !
+    ![panels](./panel03b_1.png) 
+    ![panels](./panel03b_2.png)
+3. typing the shortcut ''' // ''', typing the desired text and pressing the **enter** key. 
+    ![panels](./panel03c.jpg)
 
 
 #### Multiline data
 
-Podemos inserir múltiplas linhas de texto e um **slider** pelos métodos 1 e 2 listados acima, utilizando a tecla **enter** ao digitar.
-
-Clicando com o botão direito em um **slider** vemos as opções de configuração. Dentre elas, a opção **Multiline Data** é uma das mais importantes e vem marcada como ativada por padrão.
+ We can insert multiple lines of text and one **slider** by the methods 1 and 2 listed above, using the **enter** key when typing.
+ 
+ Right-clicking a **slider** we see the configuration options. Among them, the **Multiline Data** option is one of the most important and is marked as enabled by default.
 
 ![panels](./multiline_01.png)
 
-No exemplo abaixo vemos o componente **concatenate** utilizado com as mesmas entradas, na esquerda, o slider conectado à entrada **Fragment A** do componente está configurada com o **Multiline data** ativado (padrão para too slider novo), no exemplo da direita, a opção esta desativada.
+In the example below we see the component **concatenate** used with the same inputs, on the left, the slider connected to the component '*Fragment A** input is configured with **Multiline data** enabled (default for new too slider), in the example on the right, the option is disabled.
 
 ![panels](./multiline_02.png)
 
-O componente **concatenate** junta dois textos em um só. Essa é uma operação simples, mas é muito utilizada em linguagens de programação e importante em diversos problemas computacionais.
+The **concatenate** component joins two texts into one. This is a simple operation, but it is widely used in programming languages and important in various computational problems.
 
-No primeiro exemplo, o componente considerou o texto em **Fragment A** como uma informação única (um dado com multiplas linhas), colocando o texto de **Fragment B** após o fim de **Fragment A**.
+In the first example, the component considered the text in **Fragment A** as a single piece of information (a data with multiple lines), placing the text of **Fragment B** after the end of **Fragment A**.
 
-No exemplo da direita, com o **Multiline data** desativado, o componente considerou que cada linha de texto do **panel** era uma informação **data** separada (um dado difernete por linha). colocando o texto de **Fragment B** após o final de cada linha.
+On the right, with **Multiline data** disabled, the component considered that each line of **panel** text was a separate **data** information (a data differed per line). placing the text of **Fragment B** after the end of each line.
 
 ____________________
 ____________________

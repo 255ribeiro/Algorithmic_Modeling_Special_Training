@@ -1,8 +1,8 @@
-# Manipulação de listas:
+# Lists Manipulation:
 
 ![set_tab](./set_tab.jpg)
 
-[arquivo de exemplos](./list_handling.gh)
+[Example File](./list_handling.gh)
 
 
 

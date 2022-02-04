@@ -25,13 +25,12 @@ _______
 
 ### Atividade 02 - parte 1
 
-1. [Manipulação de listas](./gh_list_intro/gh_list_basics.md)
+1. [Lists Manipulation](./gh_list_intro/gh_list_basics.md)
 
-  - Seleção de um elemento de uma lista pelo **Índice**
-  - Exclusão de um elemento de uma lista pelo **Índice**
-  - **Shift List**
+   - Selecting an element from a list by **Index**
+   - Deleting an element from a list by **Index** - **Shift List**
 
-1. [Vetores e Planos](./gh_vect_plane/vect_plane_basics.md)
+2. [Vetores e Planos](./gh_vect_plane/vect_plane_basics.md)
 
   - Construção - atributos essenciais
   - Extração de atributos (desconstrução)
