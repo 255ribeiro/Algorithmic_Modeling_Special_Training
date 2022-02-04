@@ -33,7 +33,7 @@ To edit a slider, you must apply a dluplo click to the first part of a slider by
 
 1. Allows you to change the name of a slider
 1. Creates a real number slider.
-1. Creates a slider of integers (should be the set **Z** to the invéz of **N**)
+1. Creates a slider of integers (should be named **Z** in stead of **N**) - The **E** and **O** options create sliders 
 1. Adjusts the decimal place number of a Real slider (is disabled for entire sliders)
 1. Minimum value of a slider
 1. Maximum value of a slider
