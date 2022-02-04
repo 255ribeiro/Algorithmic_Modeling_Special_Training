@@ -40,11 +40,11 @@ The output **Points** shows on the screen the points that divide the curve, in t
 
 Data can be entered manually in different ways:
 
-1. Double-clicking on a slider and typing the desired characters. 
-   ! [panel](./panel03a_1.png)
-   ! [panel](./panel03a_2.png)
+1. Double-clicking on a **panel** and typing the desired characters. 
+   ![panel](./panel03a_1.png)
+   ![panel](./panel03a_2.png)
    
-2. clicking a right-click slider and choosing the **Edit Notes** option !
+2. clicking a right-click **panel** and choosing the **Edit Notes** option !
     ![panels](./panel03b_1.png) 
     ![panels](./panel03b_2.png)
 3. typing the shortcut ''' // ''', typing the desired text and pressing the **enter** key. 
@@ -53,13 +53,13 @@ Data can be entered manually in different ways:
 
 #### Multiline data
 
- We can insert multiple lines of text and one **slider** by the methods 1 and 2 listed above, using the **enter** key when typing.
+ We can insert multiple lines of text and one **panel** by the methods 1 and 2 listed above, using the **enter** key when typing.
  
- Right-clicking a **slider** we see the configuration options. Among them, the **Multiline Data** option is one of the most important and is marked as enabled by default.
+ Right-clicking a **panel** we see the configuration options. Among them, the **Multiline Data** option is one of the most important and is marked as enabled by default.
 
 ![panels](./multiline_01.png)
 
-In the example below we see the component **concatenate** used with the same inputs, on the left, the slider connected to the component '*Fragment A** input is configured with **Multiline data** enabled (default for new too slider), in the example on the right, the option is disabled.
+In the example below we see the component **concatenate** used with the same inputs, on the left, the **panel** connected to the component '*Fragment A** input is configured with **Multiline data** enabled (default for a new **panel**), in the example on the right, the option is disabled.
 
 ![panels](./multiline_02.png)
 
