@@ -32,7 +32,7 @@ _______
 
 ## Vectors and planes
 
-- [Vetctors and Planes](./gh_vect_plane/vect_plane_basics.md)
+- [Vectors and Planes](./gh_vect_plane/vect_plane_basics.md)
 
       - Construction - essential attributes
       - attributes extraction (deconstruction)
