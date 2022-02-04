@@ -17,11 +17,11 @@ Sliders are the main components for controlling and exploring the set of possibl
  
   __________ 
   
-  ## Parts of a slider
+## Parts of a slider
   
-  Sliders can be divided into two parts. In the first we have the name of the slider, in the second the value used in the algorithm flow. The most direct way to change the value of a slider is to move the sliding element in the second part of the slider. Values can also be changed on a slider by clicking on the second part, typing the desired value, and pressing the green button. 
+Sliders can be divided into two parts. In the first we have the name of the slider, in the second the value used in the algorithm flow. The most direct way to change the value of a slider is to move the sliding element in the second part of the slider. Values can also be changed on a slider by clicking on the second part, typing the desired value, and pressing the green button. 
   
-  ![parts of a slider](partes_do_slider.png)
+![parts of a slider](partes_do_slider.png)
 
 __________
 
