@@ -7,7 +7,7 @@
 
       - [Grasshopper Window](./gh_interface/gh_inter.md)
       - [Sliders](./Slider/Slider_config.md)
-      - [Panels](./Panels/Painel_config.MD)
+      - [Panels](./Panels/Painel_config.md)
       - Points
       - Vectors
       - Lines
