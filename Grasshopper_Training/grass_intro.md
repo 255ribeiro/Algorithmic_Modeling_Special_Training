@@ -19,26 +19,26 @@
 
 1. Exercise 
 
-   - [Sequência de pilares](./gh_pilares/gh_pilares.md)
+   - [Sequence of pillars](./gh_pilares/gh_pilares.md)
 
 _______
 
-### Atividade 02 - parte 1
+### Part -II
 
 1. [Lists Manipulation](./gh_list_intro/gh_list_basics.md)
 
    - Selecting an element from a list by **Index**
    - Deleting an element from a list by **Index** - **Shift List**
 
-2. [Vetores e Planos](./gh_vect_plane/vect_plane_basics.md)
+2. [Vetctors and Planes](./gh_vect_plane/vect_plane_basics.md)
 
-  - Construção - atributos essenciais
-  - Extração de atributos (desconstrução)
+  - Costruction - essencial attributes
+  - attributes extraction (deconstruction)
 
-##### Atividade 02 - Brise Paramétrico - Parte I
+##### Part III
 
  - Clusters
- - Domínios
+ - Domains
  - [Arquivo final](./gh_brise/brise_parametrico_2021.gh)
 
 _______
