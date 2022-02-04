@@ -17,7 +17,7 @@ The **panels** (panels) are very popular components of **Grasshopper**, widely u
  
  ![panels](./panel_01.jpg) 
  
- The *Panels* component can be found in the **Params** tab in the **Input** palette. as shown in the figure above. They can also be loaded by shortcut by double-clicking on the screen and typing two split bars:
+ The *Panels* component can be found in the **Params** tab in the **Input** palette. as shown in the figure above. They can also be loaded by shortcut by double-clicking on the screen and typing two division bars:
  
 ``` Python
 //
