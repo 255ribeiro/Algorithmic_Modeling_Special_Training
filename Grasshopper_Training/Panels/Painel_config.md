@@ -2,7 +2,9 @@
 
 _____________ 
 
-[Sample file] (./panels_ex_01.gh) __________ 
+[Sample file] (./panels_ex_01.gh) 
+
+__________ 
 
 
 ## What are they?
