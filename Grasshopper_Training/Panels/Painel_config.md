@@ -2,7 +2,7 @@
 
 _____________ 
 
-[Sample file] (./panels_ex_01.gh) 
+[Sample file](./panels_ex_01.gh) 
 
 __________ 
 
@@ -13,7 +13,7 @@ The **panels** (panels) are very popular components of **Grasshopper**, widely u
 
  __________ 
  
- ## Where do you live? 
+## Where do you live? 
  
  ![panels](./panel_01.jpg) 
  
@@ -22,7 +22,6 @@ The **panels** (panels) are very popular components of **Grasshopper**, widely u
 ``` Python
 //
 ```
-
 
 __________
 ## What do you eat?
@@ -33,7 +32,7 @@ They feed on data of various types: mostly texts. They can be fed with the outpu
 
 When you want to see the data from one of the outputs of a component, you connect a panel to this output. in the figure below we see three **panels** connected to each of the outputs of a **Divide Curve** component.
 
-![paineis](./painel02.png)
+![panels](./painel02.png)
 
 The output **Points** shows on the screen the points that divide the curve, in the panel we see the coordinate values of those same points.
 
