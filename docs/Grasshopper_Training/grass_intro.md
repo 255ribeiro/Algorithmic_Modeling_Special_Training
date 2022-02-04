@@ -5,80 +5,77 @@
 
 1. Concepts
 
-   - [Grasshopper Window](./gh_interface/gh_inter.md)
-   - [Sliders](./Slider/Slider_config.md)
-   - [Panels](./Panels/Painel_config.MD)
-   - Points
-   - Vectors
-   - Lines
-   - Nurbs
-   - Curves
-   - Pipe
-   - Lists    
+      - [Grasshopper Window](./gh_interface/gh_inter.md)
+      - [Sliders](./Slider/Slider_config.md)
+      - [Panels](./Panels/Painel_config.MD)
+      - Points
+      - Vectors
+      - Lines
+      - Nurbs
+      - Curves
+      - Pipe
+      - Lists    
 
 
 1. Exercise 
 
-   - [Sequência de pilares](./gh_pilares/gh_pilares.md)
+      - [Sequence of pillars](./gh_pilares/gh_pilares.md)
 
 _______
 
-### Atividade 02 - parte 1
+## Lists and data trees
 
-1. [Lists Manipulation](./gh_list_intro/gh_list_basics.md)
+- [Lists Manipulation](./gh_list_intro/gh_list_basics.md)
 
-   - Selecting an element from a list by **Index**
-   - Deleting an element from a list by **Index** - **Shift List**
+     - Selecting an element from a list by **Index**
+     - Deleting an element from a list by **Index** - **Shift List**
 
-2. [Vetores e Planos](./gh_vect_plane/vect_plane_basics.md)
+## Vectors and planes
 
-  - Construção - atributos essenciais
-  - Extração de atributos (desconstrução)
+- [Vetctors and Planes](./gh_vect_plane/vect_plane_basics.md)
 
-##### Atividade 02 - Brise Paramétrico - Parte I
+      - Construction - essential attributes
+      - attributes extraction (deconstruction)
 
- - Clusters
- - Domínios
- - [Arquivo final](./gh_brise/brise_parametrico_2021.gh)
+## Practical Exercise: Parametric louvers
 
-_______
+     - Clusters
+     - Domains
+     - [example file](./gh_brise/brise_parametrico_2021.gh)
 
-### Atividade 02 - parte 2
+## Practical Exercise: Parametric louvers
 
- - Listas - continuação
- - dados booleanos e condicionais
+     - [example file](./gh_brise/brise_parametrico_2021b.gh)
 
-##### Atividade 02 - Brise Paramétrico - Parte II
- - [Arquivo final](./gh_brise/brise_parametrico_2021b.gh)
+## Morph modeling
 
-### Atividade 03 - Morph
+     - [Morph](./gh_morph/gh_morph.md)
+     - Nurbs
+     - Coordinates UV
+     - Domains
+     - Bounding box
 
- - [Morph](./gh_morph/gh_morph.md)
- - Nurbs
- - Coordenadas UV
- - Domínios
- - Bounding box
+## Multiple floors buildings
 
-### Atividade 04 - Múltiplos pavimentos
+     - Curves
+     - planes
+     - lists
+     - Domains
+     - Sequences
+     - [Exercise - Multiple floors buildings](./gh_multi_pav/gh_multi_pav.md)
 
- - curvas
- - planos
- - listas
- - domínio
- - sequência
+## Interoperability
 
-  [Atividade 04 - Múltiplos pavimentos](./gh_multi_pav/gh_multi_pav.md)
+     - rhino.Inside
+       - Revit
+       - Autocad
+       - Unity
+       - Tekla
+       - Python
 
-### Interoperabilidade
+     - Rhino Grasshopper Archicad connect
+     - Grasshopper e BricsCad
 
- - rhino.Inside
-   - Revit
-   - Autocad
-   - Unity
-   - Tekla
-   - Python
-
- - Rhino Grasshopper Archicad connect
- - Grasshopper e BricsCad
-
+_________
+_________
 

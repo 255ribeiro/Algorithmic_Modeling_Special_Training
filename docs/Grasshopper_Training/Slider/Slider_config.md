@@ -5,15 +5,15 @@ __________
 
 ## What is a slider in Grasshopper 
 
-Sliders are the main components for controlling, aterating, and exploring the set of possible solutions for a parametric model, when input parameters are **numbers**.
+Sliders are the main components for controlling and exploring the set of possible solutions for a parametric model, when input parameters are **numbers**.
 
  __________ 
  
- ## How to add a slider in an algorithm
+ ## How to add a slider to an algorithm
  
- ![how to create a slider component] (slider_loc.png)
+ ![how to create a slider component](slider_loc.png)
  
- The Slider component is located in the **Param**tab in the **Input**palette, as shown in the figure above.
+ The **slider** component is located in the **Param** tab in the **Input** palette, as shown in the figure above.
  
   __________ 
   
@@ -34,8 +34,10 @@ To edit a slider, you must apply a dluplo click to the first part of a slider by
 1. Allows you to change the name of a slider
 1. Creates a real number slider.
 1. Creates a slider of integers (should be the set **Z** to the invéz of **N**)
-1. Adjusts the decimal place number of a Real slider (is disabled for entire sliders)5. Minimum value of a slider 6. Maximum value of a slider 7. Value used in algorithm flow
-
+1. Adjusts the decimal place number of a Real slider (is disabled for entire sliders)
+1. Minimum value of a slider
+1. Maximum value of a slider
+1. Value used in algorithm flow
 
 __________
 __________
