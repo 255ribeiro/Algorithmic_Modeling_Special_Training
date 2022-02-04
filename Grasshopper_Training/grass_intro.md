@@ -27,54 +27,54 @@ _______
 
 - [Lists Manipulation](./gh_list_intro/gh_list_basics.md)
 
-     - Selecting an element from a list by **Index**
-     - Deleting an element from a list by **Index** - **Shift List**
+ - Selecting an element from a list by **Index**
+ - Deleting an element from a list by **Index** - **Shift List**
 
 ## Vectors and planes
 
-- [Vectors and Planes](./gh_vect_plane/vect_plane_basics.md)
+  - [Vectors and Planes](./gh_vect_plane/vect_plane_basics.md)
 
-      - Construction - essential attributes
-      - attributes extraction (deconstruction)
-
-## Practical Exercise: Parametric louvers
-
-     - Clusters
-     - Domains
-     - [example file](./gh_brise/brise_parametrico_2021.gh)
+    - Construction - essential attributes
+    - attributes extraction (deconstruction)
 
 ## Practical Exercise: Parametric louvers
 
-     - [example file](./gh_brise/brise_parametrico_2021b.gh)
+   - Clusters
+   - Domains
+   - [example file](./gh_brise/brise_parametrico_2021.gh)
+
+## Practical Exercise: Parametric louvers
+
+   - [example file](./gh_brise/brise_parametrico_2021b.gh)
 
 ## Morph modeling
 
-     - [Morph](./gh_morph/gh_morph.md)
-     - Nurbs
-     - Coordinates UV
-     - Domains
-     - Bounding box
+   - [Morph](./gh_morph/gh_morph.md)
+   - Nurbs
+   - Coordinates UV
+   - Domains
+   - Bounding box
 
 ## Multiple floors buildings
 
-     - Curves
-     - planes
-     - lists
-     - Domains
-     - Sequences
-     - [Exercise - Multiple floors buildings](./gh_multi_pav/gh_multi_pav.md)
+   - Curves
+   - planes
+   - lists
+   - Domains
+   - Sequences
+   - [Exercise - Multiple floors buildings](./gh_multi_pav/gh_multi_pav.md)
 
 ## Interoperability
 
-     - rhino.Inside
-       - Revit
-       - Autocad
-       - Unity
-       - Tekla
-       - Python
+   - rhino.Inside
+     - Revit
+     - Autocad
+     - Unity
+     - Tekla
+     - Python
 
-     - Rhino Grasshopper Archicad connect
-     - Grasshopper e BricsCad
+   - Rhino Grasshopper Archicad connect
+   - Grasshopper e BricsCad
 
 _________
 _________
