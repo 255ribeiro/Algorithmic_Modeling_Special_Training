@@ -2,10 +2,9 @@
 
 _______________
 
-
 ## Starting a definition
 
-[Pilar_sequence: base file](./Grasshopper_introdução.gh)
+[Pilar sequence: base file](./Grasshopper_introdução.gh)
 
 To start a setting on **Grashopper** click on the componete **Point** of the tab **Params** in the **Geometry** panel. Click the work screen (*canvas*) to position the componete in the code editor.
 
