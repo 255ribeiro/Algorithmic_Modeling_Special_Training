@@ -5,21 +5,21 @@
 
 1. Concepts
 
-   - [Grasshopper Window](./gh_interface/gh_inter.md)
-   - [Sliders](./Slider/Slider_config.md)
-   - [Panels](./Panels/Painel_config.MD)
-   - Points
-   - Vectors
-   - Lines
-   - Nurbs
-   - Curves
-   - Pipe
-   - Lists    
+      - [Grasshopper Window](./gh_interface/gh_inter.md)
+      - [Sliders](./Slider/Slider_config.md)
+      - [Panels](./Panels/Painel_config.MD)
+      - Points
+      - Vectors
+      - Lines
+      - Nurbs
+      - Curves
+      - Pipe
+      - Lists    
 
 
 1. Exercise 
 
-   - [Sequence of pillars](./gh_pilares/gh_pilares.md)
+      - [Sequence of pillars](./gh_pilares/gh_pilares.md)
 
 _______
 
