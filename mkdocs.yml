@@ -50,7 +50,7 @@ nav:
       - Interface: Grasshopper_Training\gh_interface\gh_inter.md
       - Sliders: Grasshopper_Training\Slider\Slider_config.md
       - Panels: Grasshopper_Training\Panels\Painel_config.md
-      - Exercise Sequence of Columns: Grasshopper_Training\gh_pilares\gh_pilares.md
+      - Exercise- Sequence of Columns: Grasshopper_Training\gh_pilares\gh_pilares.md
       - Lists Basics: Grasshopper_Training\gh_list_intro\gh_list_basics.md
       - Exercise Multiple floor buildings: Grasshopper_Training\gh_multi_pav\gh_multi_pav.md
       - Planes and vectors: Grasshopper_Training\gh_vect_plane\vect_plane_basics.md
