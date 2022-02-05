@@ -43,7 +43,7 @@ The output **Points** shows on the screen the points that divide the curve, in t
 
 Data can be entered manually in different ways:
 
-1. Double-clicking on a **panel** and typing the desired characters.
+1. Double-clicking on a **panel** and type the desired characters.
 
    ![panel](./panel03a_1.png)
 
