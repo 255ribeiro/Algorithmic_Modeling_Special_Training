@@ -9,7 +9,7 @@ __________
 
 ## What is a panel?
 
-The **panels** (panels) are very popular components of **Grasshopper**, widely used, both for input and for data output in algorithms.
+The **panels** (panels) are very popular components in **Grasshopper**, widely used, both for input and for data output in algorithms.
 
  __________ 
  
@@ -27,7 +27,9 @@ __________
 
 ## Panels and data
 
-They feed on data of various types: mostly texts. They can be fed with the output of a component (data output) or have data entered manually (data entry).
+They feed on data of various types.
+
+They can be fed with the output of a component (data output) or have data entered manually (data entry).
 
 ### Data output
 
