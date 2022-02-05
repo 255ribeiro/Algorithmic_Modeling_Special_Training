@@ -1,4 +1,4 @@
-# Panels : What are they, where do you live and what do you eat? 
+# Panels 
 
 _____________ 
 
@@ -7,13 +7,13 @@ _____________
 __________ 
 
 
-## What are they?
+## What is a panel?
 
 The **panels** (panels) are very popular components of **Grasshopper**, widely used, both for input and for data output in algorithms.
 
  __________ 
  
-## Where do you live? 
+## Component location 
  
  ![panels](./panel_01.jpg) 
  
@@ -24,7 +24,8 @@ The **panels** (panels) are very popular components of **Grasshopper**, widely u
 ```
 
 __________
-## What do you eat?
+
+## Panels and data
 
 They feed on data of various types: mostly texts. They can be fed with the output of a component (data output) or have data entered manually (data entry).
 
