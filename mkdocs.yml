@@ -37,6 +37,7 @@ repo_name: "255ribeiro/algorithmic_modeling_special_training"
 
 nav:
   - Home: index.md
+  
   - Rhino3D: 
       - Install: Rhino_3D_Training\rh_install\install_rhino.md
       - Interface: Rhino_3D_Training\rh_inter\rh_inter.md
@@ -44,7 +45,13 @@ nav:
       - Curves basics: Rhino_3D_Training\rh_curves_basics\curves_basics.md
       - Surfaces and Breps: Rhino_3D_Training\rh_Srf_brep\rh_srf_brep.md
       - Modeling execise: Rhino_3D_Training\rh_modeling_example\rh_modeling_example.md
-  - Grasshopper: Grasshopper_Training\grass_intro.md
+
+  - Grasshopper:
+      - Interface: Grasshopper_Training\grass_intro.md
+      - Sliders: Grasshopper_Training\Slider\Slider_config.md
+      - Panels: Grasshopper_Training\Panels\Painel_config.md
+      - Exercise Sequence of columns: Grasshopper_Training\gh_pilares\gh_pilares.md
+
   - Python:
       - Install: Python_Training\intro_py\instala.md
       - frist steps: Python_Training\intro_py\intro_py.md
