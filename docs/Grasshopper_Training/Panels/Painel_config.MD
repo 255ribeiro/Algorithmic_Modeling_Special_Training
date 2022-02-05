@@ -43,14 +43,20 @@ The output **Points** shows on the screen the points that divide the curve, in t
 
 Data can be entered manually in different ways:
 
-1. Double-clicking on a **panel** and typing the desired characters. 
+1. Double-clicking on a **panel** and typing the desired characters.
+
    ![panel](./panel03a_1.png)
+
    ![panel](./panel03a_2.png)
    
-2. clicking a right-click **panel** and choosing the **Edit Notes** option !
-    ![panels](./panel03b_1.png) 
+1. Right-clicking a **panel** and choosing the **Edit Notes** option.
+   
+    ![panels](./panel03b_1.png)
+
     ![panels](./panel03b_2.png)
-3. typing the shortcut ''' // ''', typing the desired text and pressing the **enter** key. 
+
+1. typing the shortcut ''' // ''', typing the desired text and pressing the **enter** key.
+   
     ![panels](./panel03c.jpg)
 
 
