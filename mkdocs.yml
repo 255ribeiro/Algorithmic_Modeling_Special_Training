@@ -59,15 +59,30 @@ nav:
 
   - Python:
       - Install: Python_Training\intro_py\instala.md
+      - Extra configuration: Python_Training\intro_py\extra_config.md
       - frist steps: Python_Training\intro_py\intro_py.md
       - Spyder IDE intro: Python_Training\cientif_py\spyder_intro.md
+      - Variables an Operators: Python_Training\intro_py\variaveis_e_operadores.ipynb
+      - examples:
+            - Fisrt program: Python_Training\intro_py\python_example\first_program.py
+            - While: Python_Training\intro_py\python_example\loop_while.py
+            - For: Python_Training\intro_py\python_example\for_loop.py
+            - Guess the number game: Python_Training\intro_py\python_example\guess_the_number.ipynb
+            - List examples:
+                - Example 01: Python_Training\intro_py\python_example\list_examples.py
+                - Example 02: Python_Training\intro_py\python_example\list_example_02.py
+                - Example 03: Python_Training\intro_py\python_example\list_example_03.py
+      - Data structures: Python_Training\intro_py\datastructures.ipynb
+      - File handeling: Python_Training\intro_py\file_handeling.ipynb
       - Jupyter notebooks: Python_Training\cientif_py\jupyter_intro.ipynb
       - numpy: Python_Training\cientif_py\numpy_intro.ipynb
       - matplotlib: Python_Training\cientif_py\matplotlib_intro.ipynb
       - scipy: Python_Training\cientif_py\scipy_intro.ipynb
-      - pandas: Python_Training\dados_py/pandas_intro.ipynb
-      - Geopandas: Python_Training\geo_py/geopandas.md
-      - Google Earth Engine: Python_Training\geo_py/geemap.md
+      - pandas: Python_Training\dados_py\pandas_intro.ipynb
+      - Geopandas: Python_Training\geo_py\geopandas.md
+      - Google Earth Engine:
+            - Introduction and instalation: - Python_Training\geo_py\geemap.md
+            - Frist Steps: - Python_Training\geo_py\geemap_intro.ipynb
   - References: ref/ref.md
 
 markdown_extensions:
