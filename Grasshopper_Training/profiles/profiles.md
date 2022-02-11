@@ -9,6 +9,7 @@ I believe that profile 02 is correct. Maybe it's possible to simplify the equati
 
 [profile 02](./profile_02.gh)
 
-In profile 03 I put the arcs generation inside a Python component. It´s easier to understand, maintain and debug.
+In profile 03 I put the curves generation inside a Python component. It´s easier to understand, maintain and debug.
+
 
 [profile 03](./profile_03.gh)
