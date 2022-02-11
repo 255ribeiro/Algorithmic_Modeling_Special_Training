@@ -1,6 +1,6 @@
 # Interface
 
-**Grasshopper** is a tool 
+**Grasshopper** is a tool that ads parametric capabilities to **Rhino 3D**
 _______________
 ## Opening Grasshopper Window
 

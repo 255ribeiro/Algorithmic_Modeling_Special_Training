@@ -85,9 +85,11 @@ _______
   - [Essential Guide to C# Scripting for Grasshopper (by Rajaa Issa)](https://www.food4rhino.com/en/resource/essential-guide-c-scripting-grasshopper)
 
 ### Online tutorials:
-  -[Parametric house](https://www.youtube.com/c/ParametricHouse)
-  -[Grasshopper Data Trees Masterclass" -Andrew Heumann, Hypar](https://www.youtube.com/watch?v=Z6Pb-ScLpFI)
-  -[Philipp Galvan Design](https://www.youtube.com/c/PhilippGalvanDesign)
+  - [Parametric house](https://www.youtube.com/c/ParametricHouse)
+
+  - [Grasshopper Data Trees Masterclass" -Andrew Heumann, Hypar](https://www.youtube.com/watch?v=Z6Pb-ScLpFI)
+
+  - [Philipp Galvan Design](https://www.youtube.com/c/PhilippGalvanDesign)
 
 
 _________
