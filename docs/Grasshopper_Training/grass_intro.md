@@ -87,9 +87,9 @@ _______
 ### Online tutorials:
   - [Parametric house](https://www.youtube.com/c/ParametricHouse)
 
-  - [Grasshopper Data Trees Masterclass" -Andrew Heumann, Hypar](https://www.youtube.com/watch?v=Z6Pb-ScLpFI)
-
   - [Philipp Galvan Design](https://www.youtube.com/c/PhilippGalvanDesign)
+
+  - [Grasshopper Data Trees Masterclass - Andrew Heumann, Hypar](https://www.youtube.com/watch?v=Z6Pb-ScLpFI)
 
 
 _________
