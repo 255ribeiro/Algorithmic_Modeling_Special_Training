@@ -55,6 +55,7 @@ nav:
       - Exercise Multiple floor buildings: Grasshopper_Training\gh_multi_pav\gh_multi_pav.md
       - Planes and vectors: Grasshopper_Training\gh_vect_plane\vect_plane_basics.md
       - Morph: Grasshopper_Training\gh_morph\gh_morph.md
+      - Profiles: Grasshopper_Training\profiles\profiles.md
 
   - Python:
       - Install: Python_Training\intro_py\instala.md
