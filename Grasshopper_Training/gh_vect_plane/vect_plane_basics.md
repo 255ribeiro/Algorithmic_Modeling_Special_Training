@@ -1,39 +1,41 @@
-# Pontos, Vetores e Planos
+# Points, Vectors and Planes
 
-[Arquivo exemplo](./vect_plane_basics.gh)
+[example files](./vect_plane_basics.gh)
 
 ![vect_tab](./vect_tab.png)
 
-## Vetores e Pontos
+## Vectors and points
 
-### Elementos de um vetor
-    - Módulo ou Magnitude
-    - Direção
-    - Sentido
+### Elements of a Vector 
+    - Module or Amplitude
+    - Direction
+    - Sense
 
-### Coordenadas dos pontos e componentes de um vetor
+### Coordinates of the points and components of a vector
 
-Como pontos e vetores são representados no plano cartesiano.
-
-### Visualizando vetores no Grasshopper
+ How points and vectors are represented in the Cartesian plane?
+ 
+ ### Viewing vectors in Grasshopper
 
 ![vect display](./vect_dysplay.jpg)
 
-### Operações com vetores e pontos
-   - soma
-   - subtração
-   - produto vetorial (cross product)
+### Operations with vectors and points
+    - sum 
+    - subtraction
+    - cross product
+    - dot product
 
+## Planes
 
-## Planos
+1. Adjusting Planes visualization
 
-### Ajustando a visualização dos planos 
+    ![plane_display](./plane_display_size.jpg)
 
-![plane_display](./plane_display_size.jpg)
+1. Main construction planes (XY, XZ e YZ)
 
-### Planos principais (XY, XZ e YZ)
+    ![main_planes](./planesxyxzyz.png)
 
-![main_planes](./planesxyxzyz.png)
+1. Creating planes
 
-### Criando planos através origem e vetores
+1. Deconstructing planes
 
