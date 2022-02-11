@@ -76,6 +76,20 @@ _______
    - Rhino Grasshopper Archicad connect
    - Grasshopper e BricsCad
 
+## References and tutorials:
+
+
+### Raja Issa's books:
+  - [Essential Algorithms and Data Structures for Grasshopper (by Rajaa Issa)](https://www.food4rhino.com/en/resource/essential-algorithms-and-data-structures-grasshopper)
+  - [Essential Mathematics for Computational Design (by Rajaa Issa)](https://www.food4rhino.com/en/resource/essential-mathematics-computational-design)
+  - [Essential Guide to C# Scripting for Grasshopper (by Rajaa Issa)](https://www.food4rhino.com/en/resource/essential-guide-c-scripting-grasshopper)
+
+### Online tutorials:
+  -[Parametric house](https://www.youtube.com/c/ParametricHouse)
+  -[Grasshopper Data Trees Masterclass" -Andrew Heumann, Hypar](https://www.youtube.com/watch?v=Z6Pb-ScLpFI)
+  -[Philipp Galvan Design](https://www.youtube.com/c/PhilippGalvanDesign)
+
+
 _________
 _________
 

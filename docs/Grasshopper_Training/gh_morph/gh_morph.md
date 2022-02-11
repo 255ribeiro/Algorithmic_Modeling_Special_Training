@@ -1,15 +1,14 @@
-# Modelagem com o Morph
+# Modeling with Morph
 
-### Ou: 
-### Como é fácil travar um bom computador com modelagem paramétrica.
-
+### OR: 
+### How easy it is to crash a good computer with parametric modeling
 __________________
 
 ![morph_base](./morph_base.png)
 
-[Arquivo exemplo](./morph_example.gh)
+[example file](./morph_example.gh)
 
-[Algoritmo base do morph](./morph_base.gh)
+[Morph base algorithm](./morph_base.gh)
 
 
 ________________
