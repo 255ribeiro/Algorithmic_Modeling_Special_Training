@@ -8,18 +8,18 @@
       - [Grasshopper Window](./gh_interface/gh_inter.md)
       - [Sliders](./Slider/Slider_config.md)
       - [Panels](./Panels/Painel_config.md)
-      - Points
-      - Vectors
-      - Lines
-      - Nurbs
-      - Curves
-      - Pipe
-      - Lists    
-
 
 1. Exercise 
 
       - [Sequence of pillars](./gh_pilares/gh_pilares.md)
+      - Exercise Topics:
+        - Points
+        - Vectors
+        - Lines
+        - Nurbs
+        - Curves
+        - Pipe
+        - Lists 
 
 _______
 
@@ -35,7 +35,7 @@ _______
   - [Vectors and Planes](./gh_vect_plane/vect_plane_basics.md)
 
     - Construction - essential attributes
-    - attributes extraction (deconstruction)
+    - Attributes extraction (deconstruction)
 
 ## Practical Exercise: Parametric louvers
 
