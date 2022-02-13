@@ -34,5 +34,5 @@ Look for the [compatibility matrix](https://github.com/ladybug-tools/lbt-grassho
 3. In the assets section, look for the installer for your operating system.
 4. Download and run the installer, run and follow the instructions.
 5. is recomendes to install **Radiance, Open studio** under the ``` %userprofile%\ladybug_tools ``` folders:
-   1. ``` %userprofile%\ladybug_tools\radiaence ```
+   1. ``` %userprofile%\ladybug_tools\radiance ```
    2. ``` %userprofile%\ladybug_tools\openstudio ```
