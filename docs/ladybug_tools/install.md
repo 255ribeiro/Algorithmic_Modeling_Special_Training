@@ -33,4 +33,3 @@ Look for the [compatibility matrix](https://github.com/ladybug-tools/lbt-grassho
 2. In the download page, scroll to the bottom and look for the assets section.
 3. In the assets section, look for the installer for your operating system.
 4. Download and run the installer, run and follow the instructions.
-
