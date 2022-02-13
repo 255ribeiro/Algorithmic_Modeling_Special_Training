@@ -12,7 +12,7 @@
 
 Follow the installation instructions for you operating system
 
-![install](./ladybug_tools/installation.png)
+![install](./installation.png)
 
 ### Important folders in Ladybug instalattion:
 
