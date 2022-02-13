@@ -25,7 +25,7 @@ Follow the installation instructions for you operating system
 
 ## Install Optional softwares
 
-Follow the [optional steps](https://github.com/ladybug-tools/lbt-grasshopper/wiki/1.1-Windows-Installation-Steps#optional-steps) of the installation to Install Radiance, Open studio and URBANopt CLI. Those softawares are important to run properlly certain components in **ladybugtools**.
+Follow the [optional steps](https://github.com/ladybug-tools/lbt-grasshopper/wiki/1.1-Windows-Installation-Steps#optional-steps) of the installation to Install **Radiance, Open studio** and **URBANopt CLI**. Those softawares are important to run properlly certain components in **ladybugtools**.
 
 Look for the [compatibility matrix](https://github.com/ladybug-tools/lbt-grasshopper/wiki/1.4-Compatibility-Matrix#compatibility-matrix) for the proper versions for Those softawares.
 
@@ -33,3 +33,6 @@ Look for the [compatibility matrix](https://github.com/ladybug-tools/lbt-grassho
 2. In the download page, scroll to the bottom and look for the assets section.
 3. In the assets section, look for the installer for your operating system.
 4. Download and run the installer, run and follow the instructions.
+5. is recomendes to install **Radiance, Open studio** under the ``` %userprofile%\ladybug_tools ``` folders:
+   1. ``` %userprofile%\ladybug_tools\radiaence ```
+   2. ``` %userprofile%\ladybug_tools\openstudio ```
