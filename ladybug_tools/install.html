@@ -1041,11 +1041,35 @@
                 
                 <h1 id="installing">Installing</h1>
 <h2 id="download-installation-files">Download Installation files</h2>
+<p>Download ladybug from the link below:</p>
 <p><a href="https://www.food4rhino.com/en/app/ladybug-tools">Food4Rhino Ladybug Tools Page</a></p>
+<p>Alternatively you can go to <a href="https://www.food4rhino.com">www.food4rhino.com</a> and search for the Ladybug plug-ins</p>
+<p><img alt="food4rhino_01" src="food4rhino_01.png" /></p>
+<p>Download the most recent version of <strong>Ladybug tools</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You need to have a free account in Food4Rhino do download the installer.</p>
+</div>
 <h2 id="read-the-installation-instructions">Read the installation instructions</h2>
-<p><a href="https://github.com/ladybug-tools/lbt-grasshopper/wiki">Installation Instructions Page</a></p>
+<p>Read the instructions on the <a href="https://github.com/ladybug-tools/lbt-grasshopper/wiki">Installation Instructions Page</a>.</p>
 <p>Follow the installation instructions for you operating system</p>
+<p>Basically you need to:</p>
+<ol>
+<li>unzip the downloaded file</li>
+<li>
+<p>Open the installer.gh file on <strong>Grasshopper</strong></p>
+<p><img alt="installer" src="install_gh.png" /></p>
+</li>
+<li>
+<p>Turn the Boolean toggle # 1 to True ( by double clicking on the False text)</p>
+</li>
+<li>Wait till the component stops running (The False text will be set to True and a message will appear on the panel as shown on the image below).</li>
+<li>Turn the Boolean toggle # 2 to True ( by double clicking on the False text)</li>
+<li>
+<p>Restart Rhino.</p>
 <p><img alt="install" src="installation.png" /></p>
+</li>
+</ol>
 <h3 id="important-folders-in-ladybug-instalattion">Important folders in Ladybug instalattion:</h3>
 <ul>
 <li>Ladybug tools: 
@@ -1053,7 +1077,7 @@
 <li><strong>Grasshopper</strong> <strong>Plugins</strong> Folder: 
         <code>%APPDATA%\Grasshopper</code></li>
 <li>EPW download folder:
-        <code>`` C:\ladybug</code></li>
+        <code>C:\ladybug</code></li>
 </ul>
 <h2 id="install-optional-softwares">Install Optional softwares</h2>
 <p>Follow the <a href="https://github.com/ladybug-tools/lbt-grasshopper/wiki/1.1-Windows-Installation-Steps#optional-steps">optional steps</a> of the installation to Install <strong>Radiance, Open studio</strong> and <strong>URBANopt CLI</strong>. Those softawares are important to run properlly certain components in <strong>ladybugtools</strong>.</p>
@@ -1064,9 +1088,14 @@
 <li>In the assets section, look for the installer for your operating system.</li>
 <li>Download and run the installer, run and follow the instructions.</li>
 <li>is recomendes to install <strong>Radiance, Open studio</strong> under the <code>%userprofile%\ladybug_tools</code> folders:</li>
-<li><code>%userprofile%\ladybug_tools\radiance</code></li>
-<li><code>%userprofile%\ladybug_tools\openstudio</code></li>
+<li><code>C:\Users\[username]\ladybug_tools\Radiance</code></li>
+<li><code>C:\Users\[username]\ladybug_tools\openstudio</code></li>
 </ol>
+<h2 id="cheking-instalation">Cheking instalation</h2>
+<p>To check the insalation, download the [install_check.gh], or use the Honeybee components and panels as in the image below:</p>
+<p><img alt="install check" src="Install_check.jpg" /></p>
+<hr />
+<hr />
                 
               
 
