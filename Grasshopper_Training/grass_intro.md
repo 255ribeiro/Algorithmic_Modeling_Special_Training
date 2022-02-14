@@ -88,12 +88,14 @@ _______
 
  - [modelab](https://www.modelab.is/grasshopper-primer/)
 
- - [morfogenesis](http://morphogenesism.com/wp/generative-algorithms/)
+ - [morphogenesis](http://morphogenesism.com/wp/generative-algorithms/)
 
  - [Grasshopper Primer](https://www.liftarchitects.com/blog/2009/3/25/grasshopper-primer-english-edition)
 
 ### Online tutorials:
   - [Parametric house](https://www.youtube.com/c/ParametricHouse)
+
+  - [Modelab Channel](https://www.youtube.com/c/ModelabIs)
 
   - [Philipp Galvan Design](https://www.youtube.com/c/PhilippGalvanDesign)
 

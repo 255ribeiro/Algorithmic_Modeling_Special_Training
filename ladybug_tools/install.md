@@ -3,6 +3,13 @@
 
 ## Download Installation files
 
+
+!!! warning
+
+    You need to have a free account in Food4Rhino to download the installer.
+
+
+
 Download ladybug from the link below:
 
 [Food4Rhino Ladybug Tools Page](https://www.food4rhino.com/en/app/ladybug-tools)
@@ -13,9 +20,7 @@ Alternatively you can go to [www.food4rhino.com](https://www.food4rhino.com) and
 
 Download the most recent version of **Ladybug tools**
 
-!!! warning
-
-    You need to have a free account in Food4Rhino do download the installer.
+![food4rhino_01](./food4rhino_02.png)
 
 
 ## Read the installation instructions
