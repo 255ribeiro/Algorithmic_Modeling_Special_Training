@@ -8,17 +8,19 @@ You have to follow some steps to install Ladybug tools in **Grasshopper**.
 
     You need to have a free account in Food4Rhino to download the installer.
 
-Download ladybug from the link below:
 
-[Food4Rhino Ladybug Tools Page](https://www.food4rhino.com/en/app/ladybug-tools)
 
-Alternatively you can go to [www.food4rhino.com](https://www.food4rhino.com) and search for the Ladybug plug-ins
+The Ladybug tools installer is available  in the [Food for Rhino](https://www.food4rhino.com) page
 
 ![food4rhino_01](./food4rhino_01.png)
 
-Download the most recent version of **Ladybug tools**
+Search for **Ladybug** and download the most recent version of **Ladybug tools**
 
 ![food4rhino_01](./food4rhino_02.png)
+
+Alternatively, you canDownload ladybug from the link below:
+
+[Food4Rhino Ladybug Tools Page](https://www.food4rhino.com/en/app/ladybug-tools)
 
 
 ## Read the installation instructions
