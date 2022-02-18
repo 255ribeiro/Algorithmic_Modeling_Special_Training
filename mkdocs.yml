@@ -57,6 +57,7 @@ nav:
 
   - Ladybug Tools:
       - Installation: ladybug_tools\lb_install\install.md
+      - Interface: ladybug_tools\lb_basic_interface\basic_interface.md
       - EPW files: ladybug_tools\lb_epw_arq\ladybug_epw.md
       - EPW Eval: ladybug_tools\lb_epw_arq\epw_eval.md
       - Hourlu Graphics: ladybug_tools\lb_hourly\hourly_chart.md
