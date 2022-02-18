@@ -19,11 +19,10 @@ The **LB FalseStar toggle** component works the same as a **Boolean toggle** com
 
 ![site](./site_epw_LI.jpg)
 
-1. Clique em cima da estação desejada e escolha a a opção que copia o link
+1. Click o the chosen station and select **save url to clipboard**
 
     !!! warnning
-    
-        If you used a **Boolean Toggle** standard **Grasshopper**, remember to disable the Boolean connector after copying the file path.
+        If you used a **Grasshopper** standard KO**Boolean Toggle** , remember to disable the Boolean connector after copying the file path.
 
 2. Copy the link to a Grasshopper panel. Use the panel as input for the **LB Download Weather** component
 
