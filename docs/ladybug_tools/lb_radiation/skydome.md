@@ -3,17 +3,17 @@
 ![chart](./chart_total_rad_dif.jpg)
 
 
-[Arquivo Final](./SKYDOME.gh)
+[Final File](./SKYDOME.gh)
 
 
 ---------------------------------------
 
-## Separando total, direto e difuso
+## Separating total, direct and diffuse
 
 
 ![CHART_RECONSTRUCT_DIFFUSE_SKYDOME.jpg](./CHART_RECONSTRUCT_DIFFUSE_SKYDOME.jpg)
 
-[Arquivo Final](./SKYDOME_separate.gh)
+[Final File](./SKYDOME_separate.gh)
 
 ![alg_recriae](./alg_RECRIATE.png)
 

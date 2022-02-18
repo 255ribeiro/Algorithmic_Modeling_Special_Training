@@ -1,55 +1,57 @@
-# Otimização Estocástica.
+# Stochastic optimization.
+
 ________________________________________________
 
-## Entendendo o problema
+## Understanding the problem
 
 
-[exemplo teórico 3dm](./galapagos_exemplo_teorico.3dm)
+[theorical example 3dm](./galapagos_exemplo_teorico.3dm)
 
-[exemplo teórico gh](./galapagos_exemplo_teorico.gh)
+[theorical example gh](./galapagos_exemplo_teorico.gh)
 
 _________________________________________
-### Método HILL CLIMBING
+### HILL CLIMBING method
 
-#### Funcionamento do método
+#### Undestending the method
+
 ![ilustra](./ha_ilustra_00.png)
 
-#### Objetivo almejado
+#### Goal
 
 ![ilustra](./hc_ilustra_01.jpg)
 
-#### Limitações do método
+#### Limitations
 
 ![ilustra](./hc_ilustra_02.jpg)
 
 _______________________________________
 
 
-### Mínimos e máximos locais e Globais
+### Local and Global maximum and minimum 
 
 ![máximos e mínimus](https://upload.wikimedia.org/wikipedia/commons/6/68/Extrema_example_original.svg)
 
-###### fonte: https://upload.wikimedia.org/wikipedia/commons/6/68/Extrema_example_original.svg
+###### source: https://upload.wikimedia.org/wikipedia/commons/6/68/Extrema_example_original.svg
 
-### Problemas multivariáveis
+### Multivariate problems
 
 ![multi var](https://upload.wikimedia.org/wikipedia/commons/5/5c/ConstrTestFunc02.png)
 
-[fonte](https://en.wikipedia.org/wiki/Test_functions_for_optimization#Test_functions_for_constrained_optimization)
+[source](https://en.wikipedia.org/wiki/Test_functions_for_optimization#Test_functions_for_constrained_optimization)
 
 _________________________________________________________
 
-## [Algoritmos Evolucionários](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
+## [Evolutionary Algorithms](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
 
 
 ### Algoritmos Genéticos
 
-1. #### Função de aptidão (Fitness function)
+1. #### Fitness function
 1. #### Genes
-1. #### População (population)
-1. #### Geração (generation)
-1. #### Reprodução (inbreading)
-1. #### Mutação (mutation)
+1. #### Population
+1. #### Generations
+2. #### Inbreeding
+3. #### Mutations
 
 #### Galapagos Solver
 
@@ -57,74 +59,67 @@ _________________________________________________________
 
 [arquivo gh](./galapagosLadyBug.gh)
 
-O componente Galapagos fica na aba **Params**, seção **uitl**. 
+The Galapagos component is in the tab **Params**, section **uitl**.
 
 ![galapagos_01](./galapagos_01.jpg)
 
-A maneira mais prática de indicar os parâmetros de otimização para o algoritmo é:
-primeiro selecione todos os **sliders** que pretende otimizar.
+The most practical way to indicate optimization parameters for the algorithm is: first select all the **sliders** you want to optimize.
 
 ![galapagos_01](./galapagos_02.jpg)
 
-Em seguida, clique com o botão direito na entrada **genome** do componente **Galapagos** e escolha a opção **Selected Sliders**
+Then right-click on the **genome** input of the **Galapagos** component and choose the **Selected Sliders* option
 
 ![galapagos_01](./galapagos_03.jpg)
 
-Para indicar o valor a ser usado como função de aptidão, é preciso arrastar a conexão da entrada do componente Galápagos para a saída que apresenta o valor a ser otimizado.
+To indicate the value to use as a fitness function, you must drag the connection from the Galapagos component input to the output that displays the value to be optimized.
 
 ![galapagos_01](./galapagos_04.jpg)
 
-Clique duas vezes no ícone do componente **Galapagos** para abrir o editor do *solver*.
+Double-click the **Galapagos** component icon to open the *solver* editor.
 
-#### Rodando a simulação.
+#### Running the simulation
 
-O *Galapagos Editor* possui 3 abas: Options (para configurar a análise), Solver (para rodar a simulação) e Record (onde é gravado um registro do passo a passo de uma simulação).
+*Galapagos Editor* has 3 tabs: Options (to configure the analysis), Solver (to run the simulation) and Record (where a step-by-step record of a simulation is recorded). In options we can configure: 
 
-Em options podemos configurar:
- 1. se o algoritmo vai procurar por um máximo ou mínimo local.
- 2. quantas gerações podem ser geradas sem evolução na função de aptidão.
- 3. O tamanho da população
- 4. quantas vezes a população inicial será aumentada na primeira geração
- 5. O percentual de indivíduos a serem mantidos conforme critério da função de aptidão.
- 6. Percentual de indivíduos a serem gerados a partir da combinação dos genes de indivíduos mantidos na geração anterior.
+1. If the algorithm will search for a maximum or minimum location.
+1. How many generations can be generated without evolution in the function of aptitude.
+1. The size of the population 4. How many times the initial population will be increased in the first generation
+1. The percentage of individuals to be maintained according to the criterion of the aptitude function.
+1. Percentage of individuals to be generated from the combination of genes of individuals maintained in the previous generation.
 
 ![galapagos](./galapagos_05.jpg)
 
-1. Utilizar o solver genético
-2. iniciar a otimização
-3. diagrama das gerações
-4. representação da população
-5. representação do genoma
-6. representação dos indivíduos de uma geração
+1. Using the genetic solver
+1. Start optimization 3. Generation diagram
+1. representation of the population
+1. representation of the genome
+1. representation of individuals of a generation
 
 ![galapagos](./galapagos_06.jpg)
 
-É possível selecionar uma gerção (1) e um indivíduo (2) de uma geração e ajustar os slidres para a posiçãod este individuo (3).
+It is possible to select a germ (1) and an individual (2) of a generation and adjust the slidres for the position of this individual (3).
 
 ![galapagos](./galapagos_07.jpg)
 
-O pequeno sinal de + no diagrama das gerações indica que um novo valor para máximo global foi encontrado.
-
-Podemos ver o valor de máximo encontrado na geração 8 na imágem abaixo
+The small + sign in the generation diagram indicates that a new value for global maximum has been found. We can see the maximum value found in generation 8 in the image below
 
 ![galapagos](./galapagos_08.jpg)
 
-Na geração 10, outro valor de máximo foi encontrado.
+In generation 10, another maximum value was found.
 
 ![galapagos](./galapagos_09.jpg)
 
-Na geração 22 um novo candidato a máximo global foi encontrado.
+In generation 22 a new global maximum candidate was found.
 
 ![galapagos](./galapagos_10.jpg)
 
-na geração 23 um novo valor é encontrado.
+in generation 23 a new value is found.
 
 ![galapagos](./galapagos_11.jpg)
 
-Após 40 gerações sem alternar o valor maior que o encontrado na geração 23, o solver atinge sua condição de parada.
+After 40 generations without alternating the value greater than that found in generation 23, the solver reaches its stop condition.
 
 ![galapagos](./galapagos_12.jpg)  
 
-Abaixo temos um arquivo com a cópia dos valores gravados durante a otimização.
-
-[registro da otimização](./RECORD.TXT)
+_____________________
+_____________________

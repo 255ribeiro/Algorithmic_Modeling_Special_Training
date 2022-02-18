@@ -1,4 +1,4 @@
-# Gráficos por horas do ano
+# Hour Graphics
 
 ![hoy](./hoy_01.jpg)
 

@@ -58,6 +58,18 @@ nav:
       - Profiles: Grasshopper_Training\profiles\profiles.md
   - Ladybug Tools:
       - Installation: ladybug_tools\lb_install\install.md
+      - EPW files: ladybug_tools\lb_epw_arq\ladybug_epw.md
+      - EPW Eval: ladybug_tools\lb_epw_arq\epw_eval.md
+      - Hourlu Graphics: ladybug_tools\lb_hourly\hourly_chart.md
+      - Monthly Charts: ladybug_tools\lb_m_chart\month_chart.md
+      - Psychometric Chart: ladybug_tools\lb_psychometric\psychart.md
+      - Wind Rose: ladybug_tools\lb_wind_rose\wind_rose.md
+      - Sun Path : ladybug_tools\lb_sunpath\sunpath.md
+      - Sun Hours: ladybug_tools\lb_sunpath\sun_hours.md
+      - Base file radiation: ladybug_tools\lb_radiation\radiation.md
+      - Sky Dome: ladybug_tools\lb_radiation\skydome.md
+      - Radiation analysis: ladybug_tools\lb_radiation\rad_surf.md
+      - Optimization: ladybug_tools\lb_galapagos_lb\otimiza.md
 
   - Python:
       - Install: Python_Training\intro_py\instala.md
