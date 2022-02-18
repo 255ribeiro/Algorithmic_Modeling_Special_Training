@@ -1,20 +1,20 @@
 # Radiação nas superfícies
 
 
-[Arquivo 3dm](RADIATION_EXEMPLO.3dm)
+[3dm File](RADIATION_EXEMPLE.3dm)
 
 ----------------------------------------
 
 ![IMG_IMPLES](./alg_simple.png)
 
-[ARQUIVO EXEMPLO 01](./rad_surfaces.gh)
+[Example file 01](./rad_surfaces.gh)
 
 
 -------------------------------------------
 
 ![IMG_IMPLES](./alg_multiple_sources.png)
 
-[ARQUIVO EXEMPLO 02](./rad_surfaces_multiple.gh)
+[Example file 02](./rad_surfaces_multiple.gh)
 
 -------------------------------------------
 

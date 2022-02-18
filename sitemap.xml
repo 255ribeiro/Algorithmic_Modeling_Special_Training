@@ -251,17 +251,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_sunpath/Analise_horas_de_sol.html</loc>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_sunpath/sun_hours.html</loc>
          <lastmod>2022-02-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_sunpath/Percurso_aparente_do_Sol.html</loc>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_sunpath/sunpath.html</loc>
          <lastmod>2022-02-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_wind_rose/Rosa_dos_ventos.html</loc>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_wind_rose/wind_rose.html</loc>
          <lastmod>2022-02-18</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -1,6 +1,4 @@
-# Gráficos Mensais
-
-
+# Monrhly Charts
 
 ![alg](./mchart_01.jpg)
 
@@ -29,5 +27,5 @@
 
 ![chart](./chart_05.jpg)
 
-[Arquivo final](./month_chart.gh)
+[final file](./month_chart.gh)
 

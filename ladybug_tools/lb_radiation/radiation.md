@@ -1,3 +1,3 @@
-# Arquivo base para análise de radiação
+# Base file for radiation analysis
 
-[arquivo final](radiation_base.gh)
+[Base file](radiation_base.gh)

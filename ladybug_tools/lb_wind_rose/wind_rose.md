@@ -1,4 +1,4 @@
-# Rosa dos ventos
+# Wind Rose
 
 ![wind rose](./wind_rose.jpg)
 
@@ -6,4 +6,8 @@
 
 _______________________
 
-[Arquivo](./wind_rose.gh)
+[gh file](./wind_rose.gh)
+
+
+_________________________
+_________________________
