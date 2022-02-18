@@ -28,8 +28,6 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-  
-
 site_url: "https://255ribeiro.github.io/algorithmic_modeling_special_training/"
 repo_url: "https://github.com/255ribeiro/algorithmic_modeling_special_training/"
 repo_name: "255ribeiro/algorithmic_modeling_special_training" 
