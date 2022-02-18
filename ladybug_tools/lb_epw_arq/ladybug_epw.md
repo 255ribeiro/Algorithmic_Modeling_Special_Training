@@ -23,7 +23,7 @@ The **LB FalseStar toggle** component works the same as a **Boolean toggle** com
 
     !!! warnning
     
-        If you used a **Boolean Toggle** standard **Grasshopper**, remember to disable the Boolean connector after copying the file path.
+        If you used a **Grasshopper** standard **Boolean Toggle** , remember to disable the Boolean connector after copying the file path.
 
 2. Copy the link to a Grasshopper panel. Use the panel as input for the **LB Download Weather** component
 
