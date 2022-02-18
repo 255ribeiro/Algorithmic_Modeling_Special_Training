@@ -57,7 +57,7 @@ nav:
       - Morph: Grasshopper_Training\gh_morph\gh_morph.md
       - Profiles: Grasshopper_Training\profiles\profiles.md
   - Ladybug Tools:
-      - Installation: ladybug_tools\install.md
+      - Installation: ladybug_tools\lb_install\install.md
 
   - Python:
       - Install: Python_Training\intro_py\instala.md
