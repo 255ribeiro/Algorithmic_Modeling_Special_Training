@@ -54,6 +54,7 @@ nav:
       - Planes and vectors: Grasshopper_Training\gh_vect_plane\vect_plane_basics.md
       - Morph: Grasshopper_Training\gh_morph\gh_morph.md
       - Profiles: Grasshopper_Training\profiles\profiles.md
+
   - Ladybug Tools:
       - Installation: ladybug_tools\lb_install\install.md
       - EPW files: ladybug_tools\lb_epw_arq\ladybug_epw.md
@@ -64,7 +65,7 @@ nav:
       - Wind Rose: ladybug_tools\lb_wind_rose\wind_rose.md
       - Sun Path : ladybug_tools\lb_sunpath\sunpath.md
       - Sun Hours: ladybug_tools\lb_sunpath\sun_hours.md
-      - Base file radiation: ladybug_tools\lb_radiation\radiation.md
+      - Base File for Radiation: ladybug_tools\lb_radiation\radiation.md
       - Sky Dome: ladybug_tools\lb_radiation\skydome.md
       - Radiation analysis: ladybug_tools\lb_radiation\rad_surf.md
       - Optimization: ladybug_tools\lb_galapagos_lb\otimiza.md
