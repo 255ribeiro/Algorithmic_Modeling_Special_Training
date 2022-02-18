@@ -121,6 +121,5 @@ After 40 generations without alternating the value greater than that found in ge
 
 ![galapagos](./galapagos_12.jpg)  
 
-Below we have a file with a copy of the values recorded during optimization.
-
-[registro da otimização](./RECORD.TXT)
+_____________________
+_____________________
