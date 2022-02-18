@@ -21,13 +21,13 @@ The **LB FalseStar toggle** component works the same as a **Boolean toggle** com
 
 1. Clique em cima da estação desejada e escolha a a opção que copia o link
 
-    !!! note
+    !!! warnning
     
-        IMPORTANTE! Caso tenha usado um **Boolean Toggle** padrão do **Grasshopper**, lembre-se de desativar o conector booleano depois de copiar o caminho do arquivo.
+        If you used a **Boolean Toggle** standard **Grasshopper**, remember to disable the Boolean connector after copying the file path.
 
-1. Copy the link to a Grasshopper panel. Use the panel as input for the **LB Download Weather** component
+2. Copy the link to a Grasshopper panel. Use the panel as input for the **LB Download Weather** component
 
-1. The **LB Download Weather** makes the file information available for manipulation in Grasshopper. Connect the **epw_file** output of **LB Download Weather** in the input of a component **LB Import EPW**, tab **Ladybug** palette **0::Import**.
+3. The **LB Download Weather** makes the file information available for manipulation in Grasshopper. Connect the **epw_file** output of **LB Download Weather** in the input of a component **LB Import EPW**, tab **Ladybug** palette **0::Import**.
 
 ![Open_stat_epw](./epw.gif)
 
