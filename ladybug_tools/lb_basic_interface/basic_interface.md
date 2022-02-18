@@ -24,7 +24,7 @@
 
 ## Predicted mean vote (PMV) e adaptive comfort
 
-[Calculadora online](https://comfort.cbe.berkeley.edu/) de conforto termico do **Center for the Built Environment (CBE)** da Universidade de Berkley.
+[Online Calculator](https://comfort.cbe.berkeley.edu/) of thermal confort from the **Center for the Built Environment (CBE)** of Berkley university.
 
 ### PMV
 
