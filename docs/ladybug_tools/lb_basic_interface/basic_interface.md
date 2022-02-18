@@ -11,7 +11,7 @@
 
 1. Relative humidity [*_rel_humid*](https://en.wikipedia.org/wiki/Relative_humidity)
 
-1. ***_run*** By connecting a numeric value to the *_air_temp* and *_rel_humid* entries, the component has enough information to calculate UTCM, but you must place a Booleanvalue **True** in the *_run* entry.
+1. ***_run*** By connecting a numeric value to the *_air_temp* and *_rel_humid* entries, the component has enough information to calculate UTCM, but you must place a Boolean value **True** in the *_run* entry.
 
      ![gif](./UTCI.gif)
 
