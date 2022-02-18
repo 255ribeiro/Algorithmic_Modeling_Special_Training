@@ -60,7 +60,7 @@ nav:
       - Interface: ladybug_tools\lb_basic_interface\basic_interface.md
       - EPW files: ladybug_tools\lb_epw_arq\ladybug_epw.md
       - EPW Eval: ladybug_tools\lb_epw_arq\epw_eval.md
-      - Hourlu Graphics: ladybug_tools\lb_hourly\hourly_chart.md
+      - Hourly Graphics: ladybug_tools\lb_hourly\hourly_chart.md
       - Monthly Charts: ladybug_tools\lb_m_chart\month_chart.md
       - Psychometric Chart: ladybug_tools\lb_psychometric\psychart.md
       - Wind Rose: ladybug_tools\lb_wind_rose\wind_rose.md
