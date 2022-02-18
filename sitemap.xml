@@ -196,7 +196,72 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_basic_interface/basic_interface.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_epw_arq/epw_eval.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_epw_arq/ladybug_epw.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_galapagos_lb/otimiza.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_hourly/hourly_chart.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_install/install.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_m_chart/month_chart.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_psychometric/psychart.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_radiation/rad_surf.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_radiation/radiation.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_radiation/skydome.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_sunpath/Analise_horas_de_sol.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_sunpath/Percurso_aparente_do_Sol.html</loc>
+         <lastmod>2022-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/ladybug_tools/lb_wind_rose/Rosa_dos_ventos.html</loc>
          <lastmod>2022-02-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
