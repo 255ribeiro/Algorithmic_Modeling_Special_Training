@@ -117,6 +117,7 @@ plugins:
   - mkdocs-jupyter:
       #execute: True
       include_source: True
+      
 
 
 extra:
