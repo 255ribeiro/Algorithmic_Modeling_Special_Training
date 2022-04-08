@@ -16,7 +16,7 @@
     
     
       
-        <title>Pandas introduction - Algorithmic Modeling Special Training</title>
+        <title>Pandas introduction pt2 - Algorithmic Modeling Special Training</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pandas-introduction" class="md-skip">
+        <a href="#pandas-introduction-pt2" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pandas introduction
+              Pandas introduction pt2
             
           </span>
         </div>
@@ -1130,7 +1130,7 @@
   
     <li class="md-nav__item">
       <a href="pandas_intro.html" class="md-nav__link">
-        Introduction pt1
+        Pandas introduction pt1
       </a>
     </li>
   
@@ -1153,12 +1153,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Pandas introduction
+          Pandas introduction pt2
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="pandas_intro_02.html" class="md-nav__link md-nav__link--active">
-        Pandas introduction
+        Pandas introduction pt2
       </a>
       
         
@@ -1178,15 +1178,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dataframes" class="md-nav__link">
-    Dataframes
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#concat-dataframes" class="md-nav__link">
-    Concat dataframes
+  <a href="#read-excel" class="md-nav__link">
+    Read excel
   </a>
   
 </li>
@@ -1828,7 +1821,7 @@ all of MD as it is not optimized for dense, information rich UIs.
     <!-- End of mathjax configuration --><div class="jupyter-wrapper">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="pandas-introduction">Pandas introduction<a class="anchor-link" href="#Pandas-introduction">&#182;</a></h1>
+<h1 id="pandas-introduction-pt2">Pandas introduction pt2<a class="anchor-link" href="#Pandas-introduction-pt2">&#182;</a></h1>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
@@ -1853,329 +1846,12 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="dataframes">Dataframes<a class="anchor-link" href="#Dataframes">&#182;</a></h2>
+<h2 id="read-excel">Read excel<a class="anchor-link" href="#Read-excel">&#182;</a></h2>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">dic1</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;c1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span> <span class="s1">&#39;c2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]}</span>
-<span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dic1</span><span class="p">)</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df1</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>c1</th>
-      <th>c2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>6</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df1</span><span class="o">.</span><span class="n">c2</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0    4
-1    5
-2    6
-Name: c2, dtype: int64</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;c2&#39;</span><span class="p">]</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0    4
-1    5
-2    6
-Name: c2, dtype: int64</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;c1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">],</span> <span class="s1">&#39;c2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">12</span><span class="p">]})</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="concat-dataframes">Concat dataframes<a class="anchor-link" href="#Concat-dataframes">&#182;</a></h2>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df3</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df1</span><span class="p">,</span> <span class="n">df2</span><span class="p">])</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df3</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>index</th>
-      <th>c1</th>
-      <th>c2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0</td>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>2</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2</td>
-      <td>3</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0</td>
-      <td>7</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>1</td>
-      <td>8</td>
-      <td>11</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2204,7 +1880,7 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/2166803580.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/2166803580.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0 <span class="ansi-yellow-intense-fg ansi-bold">=</span> pd<span class="ansi-yellow-intense-fg ansi-bold">.</span>read_excel<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;../data_example/VP_0.xls&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\pypoetry\Cache\virtualenvs\amst-Bq4zIj0s-py3.9\lib\site-packages\pandas\util\_decorators.py</span> in <span class="ansi-cyan-fg">wrapper</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
@@ -2253,12 +1929,12 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
         </div>
@@ -2282,8 +1958,8 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/3974875788.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/3546772984.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>head<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
 </div>
@@ -2296,7 +1972,7 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2314,7 +1990,50 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/3258462722.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>describe<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2344,7 +2063,7 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/895122353.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/895122353.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">for</span> col <span class="ansi-green-intense-fg ansi-bold">in</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>columns<span class="ansi-yellow-intense-fg ansi-bold">:</span>
 <span class="ansi-green-fg">      2</span>     print<span class="ansi-yellow-intense-fg ansi-bold">(</span>col<span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
@@ -2359,7 +2078,7 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2388,7 +2107,7 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/1634307860.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/1634307860.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>c_list <span class="ansi-yellow-intense-fg ansi-bold">=</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>columns
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
@@ -2402,7 +2121,7 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2431,7 +2150,7 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/2790114390.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/2790114390.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">[</span>c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>std<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      2</span> 
 
@@ -2446,7 +2165,7 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2475,7 +2194,7 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/2353364661.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/2353364661.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>agg<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;std&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;sum&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;mean&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;median&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;var&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
@@ -2489,7 +2208,7 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2523,7 +2242,7 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/2778789418.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/2778789418.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">      1</span> fig<span class="ansi-yellow-intense-fg ansi-bold">,</span> ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>subplots<span class="ansi-yellow-intense-fg ansi-bold">(</span>figsize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      2</span> 
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>plot<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>iloc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>iloc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span>
@@ -2557,7 +2276,7 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2590,7 +2309,7 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/513445331.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/513445331.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">      1</span> fig<span class="ansi-yellow-intense-fg ansi-bold">,</span> ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>subplots<span class="ansi-yellow-intense-fg ansi-bold">(</span>figsize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      2</span> 
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">for</span> col <span class="ansi-green-intense-fg ansi-bold">in</span> c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
@@ -2624,7 +2343,7 @@ Name: c2, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -2653,12 +2372,165 @@ Name: c2, dtype: int64</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_8220/2496719103.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/2496719103.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>boxplot <span class="ansi-yellow-intense-fg ansi-bold">=</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>boxplot<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Probe 1&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;Probe 2&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      2</span> 
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
 </div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_temp</span> <span class="o">=</span> <span class="n">VP_0</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/3414151436.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_temp <span class="ansi-yellow-intense-fg ansi-bold">=</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>drop<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Time&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_temp</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/6800042.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_temp
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_temp&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">VP_temp</span><span class="p">,</span> <span class="n">patch_artist</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1">#ax.set_xticklabels(labels =c_list[1:],  rotation=90)</span>
+<span class="c1">#plt.xticks(rotation=45)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_13896/428307945.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">      1</span> fig<span class="ansi-yellow-intense-fg ansi-bold">,</span> ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>subplots<span class="ansi-yellow-intense-fg ansi-bold">(</span>figsize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">15</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">8</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>ax<span class="ansi-yellow-intense-fg ansi-bold">.</span>boxplot<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_temp<span class="ansi-yellow-intense-fg ansi-bold">,</span> patch_artist<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      3</span> <span class="ansi-red-intense-fg ansi-bold">#ax.set_xticklabels(labels =c_list[1:],  rotation=90)</span>
+<span class="ansi-green-fg">      4</span> <span class="ansi-red-intense-fg ansi-bold">#plt.xticks(rotation=45)</span>
+<span class="ansi-green-fg">      5</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>show<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_temp&#39; is not defined</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA3IAAAHWCAYAAAAyxbswAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjUuMCwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy8/fFQqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAVR0lEQVR4nO3dX4jl91nH8c/TrFGotYK7QsluTMCtda1C6xArvbDQKptc7F74hwSKVkL3xoh/ipBSqRKvqqggxD8rlqpgY+yFDLgSQVMKYkq2VINJiQxRm00LiTXmprRp9PHinNXJdDZzsjkzuw/zesHC+f3Od855Lr7M7nt/5091dwAAAJjjddd6AAAAAF4dIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMPsGXJV9dGqeraq/vkK91dV/U5VbVXVY1X19vWPCQAAwGWrXJH7WJLTr3D/7UlOLv+cS/J7r30sAAAArmTPkOvuTyX5z1dYcjbJn/TCI0m+taretK4BAQAAeLl1vEfupiRPbzu+tDwHAADAPjhykE9WVeeyePllXv/613//W97yloN8egAAgOvGZz7zmf/o7mNX87PrCLlnkpzYdnx8ee7rdPf5JOeTZGNjoy9evLiGpwcAAJinqv79an92HS+t3Ezyk8tPr3xHkhe6+4treFwAAAB2secVuar6eJJ3JTlaVZeS/EqSb0iS7v79JBeS3JFkK8mXk/z0fg0LAADACiHX3XftcX8n+Zm1TQQAAMArWsdLKwEAADhAQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIZZKeSq6nRVPVlVW1V17y7331xVD1fVZ6vqsaq6Y/2jAgAAkKwQclV1Q5L7k9ye5FSSu6rq1I5lv5zkwe5+W5I7k/zuugcFAABgYZUrcrcl2erup7r7xSQPJDm7Y00n+Zbl7Tcm+cL6RgQAAGC7IyusuSnJ09uOLyX5gR1rfjXJ31TVzyZ5fZL3rGU6AAAAvs66PuzkriQf6+7jSe5I8qdV9XWPXVXnqupiVV187rnn1vTUAAAAh8sqIfdMkhPbjo8vz213d5IHk6S7/yHJNyU5uvOBuvt8d29098axY8eubmIAAIBDbpWQezTJyaq6tapuzOLDTDZ3rPl8kncnSVV9dxYh55IbAADAPtgz5Lr7pST3JHkoyeey+HTKx6vqvqo6s1z2gSTvr6p/SvLxJO/r7t6voQEAAA6zVT7sJN19IcmFHec+vO32E0neud7RAAAA2M26PuwEAACAAyLkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgmJVCrqpOV9WTVbVVVfdeYc1PVNUTVfV4Vf3ZescEAADgsiN7LaiqG5Lcn+SHk1xK8mhVbXb3E9vWnEzywSTv7O7nq+rb92tgAACAw26VK3K3Jdnq7qe6+8UkDyQ5u2PN+5Pc393PJ0l3P7veMQEAALhslZC7KcnT244vLc9t9+Ykb66qv6+qR6rq9LoGBAAA4OX2fGnlq3ick0neleR4kk9V1fd2939tX1RV55KcS5Kbb755TU8NAABwuKxyRe6ZJCe2HR9fntvuUpLN7v5ad/9rkn/JIuxeprvPd/dGd28cO3bsamcGAAA41FYJuUeTnKyqW6vqxiR3JtncseYvs7gal6o6msVLLZ9a35gAAABctmfIdfdLSe5J8lCSzyV5sLsfr6r7qurMctlDSb5UVU8keTjJL3X3l/ZraAAAgMOsuvuaPPHGxkZfvHjxmjw3AADAtVZVn+nujav52ZW+EBwAAIDrh5ADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhVgq5qjpdVU9W1VZV3fsK6360qrqqNtY3IgAAANvtGXJVdUOS+5PcnuRUkruq6tQu696Q5OeSfHrdQwIAAPD/Vrkid1uSre5+qrtfTPJAkrO7rPu1JB9J8pU1zgcAAMAOq4TcTUme3nZ8aXnu/1TV25Oc6O6/WuNsAAAA7OI1f9hJVb0uyW8l+cAKa89V1cWquvjcc8+91qcGAAA4lFYJuWeSnNh2fHx57rI3JHlrkk9W1b8leUeSzd0+8KS7z3f3RndvHDt27OqnBgAAOMRWCblHk5ysqlur6sYkdybZvHxnd7/Q3Ue7+5buviXJI0nOdPfFfZkYAADgkNsz5Lr7pST3JHkoyeeSPNjdj1fVfVV1Zr8HBAAA4OWOrLKouy8kubDj3IevsPZdr30sAAAAruQ1f9gJAAAAB0vIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMCuFXFWdrqonq2qrqu7d5f5frKonquqxqvrbqvqO9Y8KAABAskLIVdUNSe5PcnuSU0nuqqpTO5Z9NslGd39fkk8k+fV1DwoAAMDCKlfkbkuy1d1PdfeLSR5Icnb7gu5+uLu/vDx8JMnx9Y4JAADAZauE3E1Jnt52fGl57kruTvLXr2UoAAAAruzIOh+sqt6bZCPJD13h/nNJziXJzTffvM6nBgAAODRWuSL3TJIT246PL8+9TFW9J8mHkpzp7q/u9kDdfb67N7p749ixY1czLwAAwKG3Ssg9muRkVd1aVTcmuTPJ5vYFVfW2JH+QRcQ9u/4xAQAAuGzPkOvul5Lck+ShJJ9L8mB3P15V91XVmeWy30jyzUn+oqr+sao2r/BwAAAAvEYrvUeuuy8kubDj3Ie33X7PmucCAADgClb6QnAAAACuH0IOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGWSnkqup0VT1ZVVtVde8u939jVf358v5PV9Uta58UAACAJCuEXFXdkOT+JLcnOZXkrqo6tWPZ3Ume7+7vTPLbST6y7kEBAABYWOWK3G1Jtrr7qe5+MckDSc7uWHM2yR8vb38iyburqtY3JgAAAJetEnI3JXl62/Gl5bld13T3S0leSPJt6xgQAACAlztykE9WVeeSnFsefrWq/vkgnx9WdDTJf1zrIeAK7E+uV/Ym1zP7k+vVd13tD64Scs8kObHt+Pjy3G5rLlXVkSRvTPKlnQ/U3eeTnE+SqrrY3RtXMzTsJ3uT65n9yfXK3uR6Zn9yvaqqi1f7s6u8tPLRJCer6taqujHJnUk2d6zZTPJTy9s/luTvuruvdigAAACubM8rct39UlXdk+ShJDck+Wh3P15V9yW52N2bSf4oyZ9W1VaS/8wi9gAAANgHK71HrrsvJLmw49yHt93+SpIff5XPff5VroeDYm9yPbM/uV7Zm1zP7E+uV1e9N8srIAEAAGZZ5T1yAAAAXEf2PeSq6nRVPVlVW1V17y73f2NV/fny/k9X1S37PRMkK+3NX6yqJ6rqsar626r6jmsxJ4fTXvtz27ofraquKp/GxoFYZW9W1U8sf38+XlV/dtAzcjit8Pf6zVX1cFV9dvl3+x3XYk4On6r6aFU9e6WvXquF31nu3ceq6u2rPO6+hlxV3ZDk/iS3JzmV5K6qOrVj2d1Jnu/u70zy20k+sp8zQbLy3vxsko3u/r4kn0jy6wc7JYfVivszVfWGJD+X5NMHOyGH1Sp7s6pOJvlgknd29/ck+fmDnpPDZ8Xfm7+c5MHuflsWH8z3uwc7JYfYx5KcfoX7b09ycvnnXJLfW+VB9/uK3G1Jtrr7qe5+MckDSc7uWHM2yR8vb38iyburqvZ5Lthzb3b3w9395eXhI1l8hyIchFV+dybJr2Xxn19fOcjhONRW2ZvvT3J/dz+fJN397AHPyOG0yt7sJN+yvP3GJF84wPk4xLr7U1l8sv+VnE3yJ73wSJJvrao37fW4+x1yNyV5etvxpeW5Xdd090tJXkjybfs8F6yyN7e7O8lf7+tE8P/23J/Ll12c6O6/OsjBOPRW+d355iRvrqq/r6pHquqV/hca1mWVvfmrSd5bVZey+DT2nz2Y0WBPr/bfpUlW/PoBOMyq6r1JNpL80LWeBZKkql6X5LeSvO8ajwK7OZLFy4PelcUrGT5VVd/b3f91LYeCJHcl+Vh3/2ZV/WAW34H81u7+n2s9GFyN/b4i90ySE9uOjy/P7bqmqo5kcan7S/s8F6yyN1NV70nyoSRnuvurBzQb7LU/35DkrUk+WVX/luQdSTZ94AkHYJXfnZeSbHb317r7X5P8SxZhB/tplb15d5IHk6S7/yHJNyU5eiDTwStb6d+lO+13yD2a5GRV3VpVN2bxxtLNHWs2k/zU8vaPJfm79uV27L8992ZVvS3JH2QRcd7jwUF6xf3Z3S9099HuvqW7b8niPZxnuvvitRmXQ2SVv9f/Mourcamqo1m81PKpA5yRw2mVvfn5JO9Okqr67ixC7rkDnRJ2t5nkJ5efXvmOJC909xf3+qF9fWlld79UVfckeSjJDUk+2t2PV9V9SS5292aSP8ri0vZWFm8CvHM/Z4Jk5b35G0m+OclfLD9/5/PdfeaaDc2hseL+hAO34t58KMmPVNUTSf47yS91t1fasK9W3JsfSPKHVfULWXzwyftcPOAgVNXHs/gPrqPL92j+SpJvSJLu/v0s3rN5R5KtJF9O8tMrPa79CwAAMMu+fyE4AAAA6yXkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAY5n8BAumtaOFrU9AAAAAASUVORK5CYII=
+"
+>
+</div>
+
 </div>
 
 </div>
@@ -2706,7 +2578,7 @@ Name: c2, dtype: int64</pre>
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="pandas_intro.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction pt1" rel="prev">
+        <a href="pandas_intro.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pandas introduction pt1" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2715,7 +2587,7 @@ Name: c2, dtype: int64</pre>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Introduction pt1
+              Pandas introduction pt1
             </div>
           </div>
         </a>
