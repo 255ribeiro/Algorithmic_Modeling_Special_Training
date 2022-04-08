@@ -1,0 +1,3 @@
+name, age, country
+Fernando, 46, Brazil
+Francisco, 22, Spain

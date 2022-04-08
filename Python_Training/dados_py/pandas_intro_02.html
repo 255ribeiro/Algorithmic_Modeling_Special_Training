@@ -1182,6 +1182,26 @@
     Read excel
   </a>
   
+    <nav class="md-nav" aria-label="Read excel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-read-a-xls-file-you-must-install-some-libraries" class="md-nav__link">
+    to read a xls file you must install some libraries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#or" class="md-nav__link">
+    or
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1880,7 +1900,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/2166803580.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/2527906425.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0 <span class="ansi-yellow-intense-fg ansi-bold">=</span> pd<span class="ansi-yellow-intense-fg ansi-bold">.</span>read_excel<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;../data_example/VP_0.xls&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\pypoetry\Cache\virtualenvs\amst-Bq4zIj0s-py3.9\lib\site-packages\pandas\util\_decorators.py</span> in <span class="ansi-cyan-fg">wrapper</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
@@ -1958,7 +1978,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/3546772984.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/3546772984.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>head<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
@@ -1969,7 +1989,14 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="to-read-a-xls-file-you-must-install-some-libraries">to read a xls file you must install some libraries<a class="anchor-link" href="#to-read-a-xls-file-you-must-install-some-libraries">&#182;</a></h4><p>conda install -c anaconda xlrd</p>
+<h4 id="or">or<a class="anchor-link" href="#or">&#182;</a></h4><p>conda install -c anaconda openpyxl</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
@@ -1977,25 +2004,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># to read a xls file you must install some libraries</span>
-<span class="c1">#!conda install xlrd</span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span><span class="o">.</span><span class="n">T</span>
 </pre></div>
 
         </div>
@@ -2019,8 +2028,51 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/3258462722.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>describe<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/92767239.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>describe<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>T
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/3546772984.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>head<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
 </div>
@@ -2063,7 +2115,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/895122353.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/895122353.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">for</span> col <span class="ansi-green-intense-fg ansi-bold">in</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>columns<span class="ansi-yellow-intense-fg ansi-bold">:</span>
 <span class="ansi-green-fg">      2</span>     print<span class="ansi-yellow-intense-fg ansi-bold">(</span>col<span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
@@ -2084,6 +2136,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         <div class="CodeMirror cm-s-jupyter">
     <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">c_list</span> <span class="o">=</span> <span class="n">VP_0</span><span class="o">.</span><span class="n">columns</span>
+<span class="n">c_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
 </pre></div>
 
         </div>
@@ -2107,8 +2160,9 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/1634307860.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/3849621502.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>c_list <span class="ansi-yellow-intense-fg ansi-bold">=</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>columns
+<span class="ansi-green-fg">      2</span> c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
 </div>
@@ -2126,7 +2180,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span><span class="p">[</span><span class="n">c_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:]]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_0</span><span class="p">[</span><span class="n">c_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:]]</span><span class="o">.</span><span class="n">var</span><span class="p">()</span>
 </pre></div>
 
         </div>
@@ -2150,8 +2204,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/2790114390.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">[</span>c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>std<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/826379444.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">[</span>c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>var<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      2</span> 
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
@@ -2194,7 +2248,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/2353364661.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/2353364661.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>agg<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;std&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;sum&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;mean&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;median&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;var&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
@@ -2215,8 +2269,8 @@ all of MD as it is not optimized for dense, information rich UIs.
         <div class="CodeMirror cm-s-jupyter">
     <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
 
-<span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">VP_0</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">VP_0</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">:]</span> <span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">c_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">VP_0</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">VP_0</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">:]</span> <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">c_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">.9</span><span class="p">,</span><span class="mf">.12</span><span class="p">),</span> <span class="n">loc</span><span class="o">=</span><span class="s2">&quot;lower left&quot;</span><span class="p">)</span>
 
 <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
@@ -2242,11 +2296,11 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/2778789418.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/733417327.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">      1</span> fig<span class="ansi-yellow-intense-fg ansi-bold">,</span> ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>subplots<span class="ansi-yellow-intense-fg ansi-bold">(</span>figsize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      2</span> 
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>plot<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>iloc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>iloc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">      4</span> fig<span class="ansi-yellow-intense-fg ansi-bold">.</span>legend<span class="ansi-yellow-intense-fg ansi-bold">(</span>c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>plot<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>index<span class="ansi-yellow-intense-fg ansi-bold">,</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>iloc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      4</span> fig<span class="ansi-yellow-intense-fg ansi-bold">.</span>legend<span class="ansi-yellow-intense-fg ansi-bold">(</span>c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> bbox_to_anchor<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">.9</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">.12</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> loc<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;lower left&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      5</span> 
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
@@ -2282,9 +2336,10 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         <div class="CodeMirror cm-s-jupyter">
     <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-
+<span class="c1">#ax.set_aspect(&#39;equal&#39;)</span>
 <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">c_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
-    <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">VP_0</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">VP_0</span><span class="p">[</span><span class="n">col</span><span class="p">]</span> <span class="p">)</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">VP_0</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s1">&#39;Time&#39;</span><span class="p">]],</span> <span class="n">VP_0</span><span class="p">[</span><span class="n">col</span><span class="p">]</span> <span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">VP_0</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">.9</span><span class="p">,</span><span class="mf">.12</span><span class="p">),</span> <span class="n">loc</span><span class="o">=</span><span class="s2">&quot;lower left&quot;</span><span class="p">)</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -2309,12 +2364,12 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/513445331.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/1911919354.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">      1</span> fig<span class="ansi-yellow-intense-fg ansi-bold">,</span> ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>subplots<span class="ansi-yellow-intense-fg ansi-bold">(</span>figsize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">10</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">      2</span> 
+<span class="ansi-green-fg">      2</span> <span class="ansi-red-intense-fg ansi-bold">#ax.set_aspect(&#39;equal&#39;)</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">for</span> col <span class="ansi-green-intense-fg ansi-bold">in</span> c_list<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">      4</span>     ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>scatter<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>iloc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">[</span>col<span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">      5</span> fig<span class="ansi-yellow-intense-fg ansi-bold">.</span>show<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      4</span>     ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>scatter<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>loc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Time&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">[</span>col<span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      5</span> fig<span class="ansi-yellow-intense-fg ansi-bold">.</span>legend<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>columns<span class="ansi-yellow-intense-fg ansi-bold">,</span> bbox_to_anchor<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">.9</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">.12</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> loc<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;lower left&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;c_list&#39; is not defined</pre>
 </div>
@@ -2372,7 +2427,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/2496719103.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/2496719103.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>boxplot <span class="ansi-yellow-intense-fg ansi-bold">=</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>boxplot<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Probe 1&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;Probe 2&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-fg">      2</span> 
 
@@ -2392,7 +2447,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_temp</span> <span class="o">=</span> <span class="n">VP_0</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">VP_temp</span> <span class="o">=</span> <span class="n">VP_0</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
         </div>
@@ -2416,8 +2471,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/3414151436.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_temp <span class="ansi-yellow-intense-fg ansi-bold">=</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>drop<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Time&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/575843998.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_temp <span class="ansi-yellow-intense-fg ansi-bold">=</span> VP_0<span class="ansi-yellow-intense-fg ansi-bold">.</span>drop<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Time&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> axis <span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_0&#39; is not defined</pre>
 </div>
@@ -2459,7 +2514,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/6800042.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/6800042.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>VP_temp
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_temp&#39; is not defined</pre>
@@ -2478,10 +2533,22 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Probes Temperature Boxplot</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Probe number&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Temperatures K°</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;lightgrey&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;lightgrey&#39;</span><span class="p">)</span>
+
 <span class="n">ax</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">VP_temp</span><span class="p">,</span> <span class="n">patch_artist</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="c1">#ax.set_xticklabels(labels =c_list[1:],  rotation=90)</span>
-<span class="c1">#plt.xticks(rotation=45)</span>
+<span class="c1">#plt.xticks(rotation=90)</span>
+
+<span class="c1"># make sure you have a output folder created</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span> <span class="s1">&#39;./output/boxplot&#39;</span> <span class="o">+</span> <span class="s1">&#39;.png&#39;</span><span class="p">,</span> <span class="nb">format</span> <span class="o">=</span><span class="s1">&#39;png&#39;</span><span class="p">,</span>  <span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -2506,12 +2573,12 @@ all of MD as it is not optimized for dense, information rich UIs.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_9220/428307945.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      1</span> fig<span class="ansi-yellow-intense-fg ansi-bold">,</span> ax <span class="ansi-yellow-intense-fg ansi-bold">=</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>subplots<span class="ansi-yellow-intense-fg ansi-bold">(</span>figsize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">15</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">8</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>ax<span class="ansi-yellow-intense-fg ansi-bold">.</span>boxplot<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_temp<span class="ansi-yellow-intense-fg ansi-bold">,</span> patch_artist<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">      3</span> <span class="ansi-red-intense-fg ansi-bold">#ax.set_xticklabels(labels =c_list[1:],  rotation=90)</span>
-<span class="ansi-green-fg">      4</span> <span class="ansi-red-intense-fg ansi-bold">#plt.xticks(rotation=45)</span>
-<span class="ansi-green-fg">      5</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>show<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_252/4088359972.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">      9</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>grid<span class="ansi-yellow-intense-fg ansi-bold">(</span>axis<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;x&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> color<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;lightgrey&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     10</span> 
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 11</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>ax<span class="ansi-yellow-intense-fg ansi-bold">.</span>boxplot<span class="ansi-yellow-intense-fg ansi-bold">(</span>VP_temp<span class="ansi-yellow-intense-fg ansi-bold">,</span> patch_artist<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     12</span> <span class="ansi-red-intense-fg ansi-bold">#ax.set_xticklabels(labels =c_list[1:],  rotation=90)</span>
+<span class="ansi-green-fg">     13</span> <span class="ansi-red-intense-fg ansi-bold">#plt.xticks(rotation=90)</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;VP_temp&#39; is not defined</pre>
 </div>
@@ -2526,7 +2593,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 
 <div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA3IAAAHWCAYAAAAyxbswAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjUuMCwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy8/fFQqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAVR0lEQVR4nO3dX4jl91nH8c/TrFGotYK7QsluTMCtda1C6xArvbDQKptc7F74hwSKVkL3xoh/ipBSqRKvqqggxD8rlqpgY+yFDLgSQVMKYkq2VINJiQxRm00LiTXmprRp9PHinNXJdDZzsjkzuw/zesHC+f3Od855Lr7M7nt/5091dwAAAJjjddd6AAAAAF4dIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMPsGXJV9dGqeraq/vkK91dV/U5VbVXVY1X19vWPCQAAwGWrXJH7WJLTr3D/7UlOLv+cS/J7r30sAAAArmTPkOvuTyX5z1dYcjbJn/TCI0m+taretK4BAQAAeLl1vEfupiRPbzu+tDwHAADAPjhykE9WVeeyePllXv/613//W97yloN8egAAgOvGZz7zmf/o7mNX87PrCLlnkpzYdnx8ee7rdPf5JOeTZGNjoy9evLiGpwcAAJinqv79an92HS+t3Ezyk8tPr3xHkhe6+4treFwAAAB2secVuar6eJJ3JTlaVZeS/EqSb0iS7v79JBeS3JFkK8mXk/z0fg0LAADACiHX3XftcX8n+Zm1TQQAAMArWsdLKwEAADhAQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIZZKeSq6nRVPVlVW1V17y7331xVD1fVZ6vqsaq6Y/2jAgAAkKwQclV1Q5L7k9ye5FSSu6rq1I5lv5zkwe5+W5I7k/zuugcFAABgYZUrcrcl2erup7r7xSQPJDm7Y00n+Zbl7Tcm+cL6RgQAAGC7IyusuSnJ09uOLyX5gR1rfjXJ31TVzyZ5fZL3rGU6AAAAvs66PuzkriQf6+7jSe5I8qdV9XWPXVXnqupiVV187rnn1vTUAAAAh8sqIfdMkhPbjo8vz213d5IHk6S7/yHJNyU5uvOBuvt8d29098axY8eubmIAAIBDbpWQezTJyaq6tapuzOLDTDZ3rPl8kncnSVV9dxYh55IbAADAPtgz5Lr7pST3JHkoyeey+HTKx6vqvqo6s1z2gSTvr6p/SvLxJO/r7t6voQEAAA6zVT7sJN19IcmFHec+vO32E0neud7RAAAA2M26PuwEAACAAyLkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgmJVCrqpOV9WTVbVVVfdeYc1PVNUTVfV4Vf3ZescEAADgsiN7LaiqG5Lcn+SHk1xK8mhVbXb3E9vWnEzywSTv7O7nq+rb92tgAACAw26VK3K3Jdnq7qe6+8UkDyQ5u2PN+5Pc393PJ0l3P7veMQEAALhslZC7KcnT244vLc9t9+Ykb66qv6+qR6rq9LoGBAAA4OX2fGnlq3ick0neleR4kk9V1fd2939tX1RV55KcS5Kbb755TU8NAABwuKxyRe6ZJCe2HR9fntvuUpLN7v5ad/9rkn/JIuxeprvPd/dGd28cO3bsamcGAAA41FYJuUeTnKyqW6vqxiR3JtncseYvs7gal6o6msVLLZ9a35gAAABctmfIdfdLSe5J8lCSzyV5sLsfr6r7qurMctlDSb5UVU8keTjJL3X3l/ZraAAAgMOsuvuaPPHGxkZfvHjxmjw3AADAtVZVn+nujav52ZW+EBwAAIDrh5ADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhVgq5qjpdVU9W1VZV3fsK6360qrqqNtY3IgAAANvtGXJVdUOS+5PcnuRUkruq6tQu696Q5OeSfHrdQwIAAPD/Vrkid1uSre5+qrtfTPJAkrO7rPu1JB9J8pU1zgcAAMAOq4TcTUme3nZ8aXnu/1TV25Oc6O6/WuNsAAAA7OI1f9hJVb0uyW8l+cAKa89V1cWquvjcc8+91qcGAAA4lFYJuWeSnNh2fHx57rI3JHlrkk9W1b8leUeSzd0+8KS7z3f3RndvHDt27OqnBgAAOMRWCblHk5ysqlur6sYkdybZvHxnd7/Q3Ue7+5buviXJI0nOdPfFfZkYAADgkNsz5Lr7pST3JHkoyeeSPNjdj1fVfVV1Zr8HBAAA4OWOrLKouy8kubDj3IevsPZdr30sAAAAruQ1f9gJAAAAB0vIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMCuFXFWdrqonq2qrqu7d5f5frKonquqxqvrbqvqO9Y8KAABAskLIVdUNSe5PcnuSU0nuqqpTO5Z9NslGd39fkk8k+fV1DwoAAMDCKlfkbkuy1d1PdfeLSR5Icnb7gu5+uLu/vDx8JMnx9Y4JAADAZauE3E1Jnt52fGl57kruTvLXr2UoAAAAruzIOh+sqt6bZCPJD13h/nNJziXJzTffvM6nBgAAODRWuSL3TJIT246PL8+9TFW9J8mHkpzp7q/u9kDdfb67N7p749ixY1czLwAAwKG3Ssg9muRkVd1aVTcmuTPJ5vYFVfW2JH+QRcQ9u/4xAQAAuGzPkOvul5Lck+ShJJ9L8mB3P15V91XVmeWy30jyzUn+oqr+sao2r/BwAAAAvEYrvUeuuy8kubDj3Ie33X7PmucCAADgClb6QnAAAACuH0IOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGEXIAAADDCDkAAIBhhBwAAMAwQg4AAGAYIQcAADCMkAMAABhGyAEAAAwj5AAAAIYRcgAAAMMIOQAAgGGEHAAAwDBCDgAAYBghBwAAMIyQAwAAGEbIAQAADCPkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAYRsgBAAAMI+QAAACGWSnkqup0VT1ZVVtVde8u939jVf358v5PV9Uta58UAACAJCuEXFXdkOT+JLcnOZXkrqo6tWPZ3Ume7+7vTPLbST6y7kEBAABYWOWK3G1Jtrr7qe5+MckDSc7uWHM2yR8vb38iyburqtY3JgAAAJetEnI3JXl62/Gl5bld13T3S0leSPJt6xgQAACAlztykE9WVeeSnFsefrWq/vkgnx9WdDTJf1zrIeAK7E+uV/Ym1zP7k+vVd13tD64Scs8kObHt+Pjy3G5rLlXVkSRvTPKlnQ/U3eeTnE+SqrrY3RtXMzTsJ3uT65n9yfXK3uR6Zn9yvaqqi1f7s6u8tPLRJCer6taqujHJnUk2d6zZTPJTy9s/luTvuruvdigAAACubM8rct39UlXdk+ShJDck+Wh3P15V9yW52N2bSf4oyZ9W1VaS/8wi9gAAANgHK71HrrsvJLmw49yHt93+SpIff5XPff5VroeDYm9yPbM/uV7Zm1zP7E+uV1e9N8srIAEAAGZZ5T1yAAAAXEf2PeSq6nRVPVlVW1V17y73f2NV/fny/k9X1S37PRMkK+3NX6yqJ6rqsar626r6jmsxJ4fTXvtz27ofraquKp/GxoFYZW9W1U8sf38+XlV/dtAzcjit8Pf6zVX1cFV9dvl3+x3XYk4On6r6aFU9e6WvXquF31nu3ceq6u2rPO6+hlxV3ZDk/iS3JzmV5K6qOrVj2d1Jnu/u70zy20k+sp8zQbLy3vxsko3u/r4kn0jy6wc7JYfVivszVfWGJD+X5NMHOyGH1Sp7s6pOJvlgknd29/ck+fmDnpPDZ8Xfm7+c5MHuflsWH8z3uwc7JYfYx5KcfoX7b09ycvnnXJLfW+VB9/uK3G1Jtrr7qe5+MckDSc7uWHM2yR8vb38iyburqvZ5Lthzb3b3w9395eXhI1l8hyIchFV+dybJr2Xxn19fOcjhONRW2ZvvT3J/dz+fJN397AHPyOG0yt7sJN+yvP3GJF84wPk4xLr7U1l8sv+VnE3yJ73wSJJvrao37fW4+x1yNyV5etvxpeW5Xdd090tJXkjybfs8F6yyN7e7O8lf7+tE8P/23J/Ll12c6O6/OsjBOPRW+d355iRvrqq/r6pHquqV/hca1mWVvfmrSd5bVZey+DT2nz2Y0WBPr/bfpUlW/PoBOMyq6r1JNpL80LWeBZKkql6X5LeSvO8ajwK7OZLFy4PelcUrGT5VVd/b3f91LYeCJHcl+Vh3/2ZV/WAW34H81u7+n2s9GFyN/b4i90ySE9uOjy/P7bqmqo5kcan7S/s8F6yyN1NV70nyoSRnuvurBzQb7LU/35DkrUk+WVX/luQdSTZ94AkHYJXfnZeSbHb317r7X5P8SxZhB/tplb15d5IHk6S7/yHJNyU5eiDTwStb6d+lO+13yD2a5GRV3VpVN2bxxtLNHWs2k/zU8vaPJfm79uV27L8992ZVvS3JH2QRcd7jwUF6xf3Z3S9099HuvqW7b8niPZxnuvvitRmXQ2SVv9f/Mourcamqo1m81PKpA5yRw2mVvfn5JO9Okqr67ixC7rkDnRJ2t5nkJ5efXvmOJC909xf3+qF9fWlld79UVfckeSjJDUk+2t2PV9V9SS5292aSP8ri0vZWFm8CvHM/Z4Jk5b35G0m+OclfLD9/5/PdfeaaDc2hseL+hAO34t58KMmPVNUTSf47yS91t1fasK9W3JsfSPKHVfULWXzwyftcPOAgVNXHs/gPrqPL92j+SpJvSJLu/v0s3rN5R5KtJF9O8tMrPa79CwAAMMu+fyE4AAAA6yXkAAAAhhFyAAAAwwg5AACAYYQcAADAMEIOAABgGCEHAAAwjJADAAAY5n8BAumtaOFrU9AAAAAASUVORK5CYII=
+<img src="data:image/png;base64,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wAkAAMDyWMpAQj9WVQdU1b2r6obLXdD2aK1dneTJSU5Ncm6St7XWPlNVz6+qI1a3OgAAgM1nKafXpqoenOTlSfYbF90/yWlVdbMk/5nkma21k5a1wiVqrZ2S5JSpZc+do+2hK1ETAADAZrXoI51VdWiSdya5OMmfJqmZda21i5J8IcPprAAAAJBkaafXPjfJpzLcguT4WdZ/JMmdl6MoAAAANoalhM67JXlja+2aOdZfkGE0WAAAAEiytNC5Q5Ir51m/R5Krtq8cAAAANpKlhM5zk/zCPOsfnOH0WwAAAEiyQOisqltW1XXH2dckeURVHTOxXauq61XV3yS5V5IT+pUKAADAerPQkc4vJXlokrTWXpnkrUn+Lsnnk7Qkb05yWYZ7Y76utfbGfqUCAACw3ix0n86anGmtHVVV70hyVJLbjes/luTE1to7+pQIAADAerVQ6LyW1to7M9yvEwAAAOa1lIGEAAAAYEkWc6TzF6pq0UdEW2snbkc9AAAAbCCLCZPHjtNCKsPgQkInAAAASRYXOk9I8tHehQAAALDxLCZ0fri19qbulQAAALDhGEgIAACAboROAAAAuhE6AQAA6Gbeazpba0IpAAAA20yoBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAbjZc6KyqB1bVZ6tqS1U9c5b1T6+qc6rq7Kr6YFXtuxp1AgAAbAYbKnRW1Y5Jjk9yeJKDkxxZVQdPNftEkru21n4myUlJ/nJlqwQAANg8NlToTHL3JFtaa19srV2V5C1JHjLZoLV2emvt++PsR5PsvcI1AgAAbBo7rXYBy2yvJOdPzF+Q5B7ztD8myXtmW1FVxyY5Nkn23HPPbNmyZblqhGVz5ZVX6pusWfona5W+yVqlb7JRbbTQuWhVdVSSuya5z2zrW2snJDkhSQ455JB2wAEHrGB1sDhbtmyJvslapX+yVumbrFX6JhvVRgudFybZZ2J+73HZT6iqw5L8cZL7tNauXKHaAAAANp2Ndk3nmUkOrKr9q2qXJI9KcvJkg6q6U5JXJzmitXbRKtQIAACwaWyo0NlauzrJk5OcmuTcJG9rrX2mqp5fVUeMzV6cZLckb6+qT1bVyXPsDgAAgO200U6vTWvtlCSnTC177sTjw1a8KAAAgE1qQx3pBAAAYG0ROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuNlzorKoHVtVnq2pLVT1zlvW7VtVbx/Ufq6r9VqFMAACATWFDhc6q2jHJ8UkOT3JwkiOr6uCpZsckuaS1dkCSlyV50cpWCQAAsHlsqNCZ5O5JtrTWvthauyrJW5I8ZKrNQ5L84/j4pCT3q6pawRoBAAA2jZ1Wu4BltleS8yfmL0hyj7natNaurqrLktw0ybcmG1XVsUmOHWevrKpPd6kYts8emeq7sIbon6xV+iZrlb7JWnbbbd1wo4XOZdNaOyHJCUlSVWe11u66yiXBteibrGX6J2uVvslapW+yllXVWdu67UY7vfbCJPtMzO89Lpu1TVXtlOSGSb69ItUBAABsMhstdJ6Z5MCq2r+qdknyqCQnT7U5OcljxsePSHJaa62tYI0AAACbxoY6vXa8RvPJSU5NsmOS17bWPlNVz09yVmvt5CSvSfL6qtqS5OIMwXQhJ3QrGraPvslapn+yVumbrFX6JmvZNvfPcpAPAACAXjba6bUAAACsIUInAAAA3QidE6rqgVX12araUlXPnGX9rlX11nH9x6pqv1Uok01oEX3z6VV1TlWdXVUfrKp9V6NONp+F+uZEu4dXVasqtwJgxSymf1bVI8d/Pz9TVW9a6RrZnBbx//otq+r0qvrE+H/7g1ajTjafqnptVV1UVZ+eY31V1d+MfffsqrrzYvYrdI6qasckxyc5PMnBSY6sqoOnmh2T5JLW2gFJXpbkRStbJZvRIvvmJ5LctbX2M0lOSvKXK1slm9Ei+2aqavckT0nysZWtkM1sMf2zqg5M8qwk926t3T7JU1e6TjafRf7b+Zwkb2ut3SnDoJd/u7JVsom9LskD51l/eJIDx+nYJK9czE6Fzq3unmRLa+2LrbWrkrwlyUOm2jwkyT+Oj09Kcr+qqhWskc1pwb7ZWju9tfb9cfajGe5RC70t5t/NJHlBhi/prljJ4tj0FtM/H5fk+NbaJUnSWrtohWtkc1pM32xJbjA+vmGSr65gfWxirbUPZbjDx1wekuTENvhokhtV1Z4L7Vfo3GqvJOdPzF8wLpu1TWvt6iSXJbnpilTHZraYvjnpmCTv6VoRDBbsm+NpN/u01t69koVBFvdv522S3Kaq/qOqPlpV8327D8tlMX3zuCRHVdUFSU5J8rsrUxosaKl/lybZYPfphM2uqo5Kctck91ntWqCqdkjy0iRHr3IpMJedMpwidmiGM0Q+VFWHtNYuXc2iIMmRSV7XWntJVd0rwz3m79Bau2a1C4Nt4UjnVhcm2Wdifu9x2axtqmqnDKc7fHtFqmMzW0zfTFUdluSPkxzRWrtyhWpjc1uob+6e5A5Jzqiq85LcM8nJBhNihSzm384LkpzcWvtha+1LST6XIYRCT4vpm8ckeVuStNY+kuQ6SfZYkepgfov6u3Sa0LnVmUkOrKr9q2qXDBdtnzzV5uQkjxkfPyLJaa21toI1sjkt2Der6k5JXp0hcLomiZUyb99srV3WWtujtbZfa22/DNcbH9FaO2t1ymWTWcz/6+/KcJQzVbVHhtNtv7iCNbI5LaZvfiXJ/ZKkqg7KEDq/uaJVwuxOTvLocRTbeya5rLX2tYU2cnrtqLV2dVU9OcmpSXZM8trW2meq6vlJzmqtnZzkNRlOb9iS4QLbR61exWwWi+ybL06yW5K3j2NbfaW1dsSqFc2msMi+Catikf3z1CS/XFXnJPlRkme01pzBRFeL7Ju/n+TvquppGQYVOtqBDlZCVb05w5dxe4zXFD8vyc5J0lp7VYZrjB+UZEuS7yd57KL2q/8CAADQi9NrAQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADoRugEAACgG6ETAACAboROAAAAuhE6AQAA6EboBIB5VNUZVXXeatexVlTVflXVquq41a4FgPVB6ARg3aiqQ8fAMzl9r6r+u6qeUlU7rnaNAMBP2mm1CwCAbfDmJKckqSS3SHJ0kr9Ocvskx65aVQDAtQidAKxHH2+tvWFmpqpemeTcJL9dVX/SWvvGbBtV1e6tte+uVJFsv6raOcmOrbUrVrsWALaN02sBWPdaa99J8pEMRz5vlSRVdd54PeadqurUqrosydkz21TVL1bV+6vqsqr6QVV9vKqOmes5qupWVfXPY/vvVNU7q+pWs7SrqnrCeMrv98fTf0+vqvsu5rVU1dHjacO/VFV/UFVfqKorq+pzVfWYqbZzXl9ZVceN6/abWPa6cdlNx8ffqqrvVtW7qurmY5tjq+rcqrqiqv5fVT1knlqPrKqzx7ZfGZ/zWl9oV9WeVfXKsc1VVfXVqjqhqm42R823r6qXVtUFSa5Ics/FvHcArE2OdAKw7lVVJTlgnP3WxKpbJjktyduTvCPJbmP7/5XknUm+nuQlSb6b5FFJ/r6qbtVa++Opp7h+kjOSfCzJs5IcmOSJSe5ZVXdqrX19ou3rkxyZ5KQk/5Bk1yS/meT9VfWw1trJi3xZf57kukleneTKJE9I8rqq2tJa+49F7mMu701yQZLnZnjffi/JO6vqnzKcnvyaDGHv95KcVFW3aa19aWofR2QI+MdneB+PSPK8JPsmeexMo6q6ZYYvBHYZ9/uF8TmfkOS+VXXX1tplU/t+Y5IfZPhsWpKvbefrBWAVCZ0ArEfXq6o9MhzZ3DPJ7ya5Y5KPttY+P9Fu/ySPa639/cyCcbChVyT5XpK7t9a+Oi4/PsnpSZ5ZVa+b2s8eSV7eWnvqxH4+lOSfkhyX5HfGZQ/NEDAf31o7YaLty5N8NMnLq+pfWmttEa9x1yR3a61dNe7jpCRfTPLkJNsbOv+rtfakifqS5GlJ9kpyh/HIcarqtCSfyhBEnzW1jzuO9X18bPuKDO/H0VX16tbaR8d2/zfJzknu1Fq7YOI5357hPXlahvdw0qVJDmutXb2drxOANcDptQCsR3+a5JtJLsoQin4ryclJfnWq3cUZjjZOukuGI6CvnQmcSTKGu7/M8H/jbKeU/sXkTGvtnUk+O/WcR2U4avquqtpjZkpyoyT/kmS/DEdJF+NvZwLn+HwXJvncErafz19PzX94/HniTOAcn/PsJN+Z4znfPxM4x7Ytw/uXJA9Nkqq6YZIHZ/hsrph6T85LsiXJL89Wn8AJsHE40gnAenRChlNmW5LLk3yutXbxLO2+0Fr70dSy/cefn5ml/cyy6Ws1L506hXbGuUl+taqu31q7PMlBSXZPMutARqOfzhAeF/LFWZZ9O8Ppq9tret+XjD+nT6GdWXfTWZafO8uyc8afM+/fbTOE+GPGaTG1JIt7fwBYJ4ROANajz7fWPrCIdt/vXslPqgxHYH9jnjafXuS+psPy5HPMmO803Tn/j58liC/lOZdiZrs3JPnHOdr8YJZlK/25AdCR0AnAZjNzZO32s6w7eKrNjBtV1c1nOdp5UJKLxqOcSfL5JLfJcG3p95al2vnNHN29ySzrrjWy7jI7aJZl0+/flgzBeJdFfkkAwAbkmk4ANpuPJ/lKksfO3CYk+fH9IJ+RIST98yzbPXNyZhw06LZJ3jWx+MQM/7f+n9meuKp+ensKnzbec/TrSX5pHMF35nlulWtf37rc7l9Vd554zkryh+Psu8b6vp3klCQPq6pr3fZkvL3MT3WuE4BV5kgnAJtKa+1HVfXkDLdMObOqTsgw+M+vZ7gf5J9PjVybDLdheVhV3SLDrVNmbpnyjUyMvNpaO6mq/iHJk8dA9q/jtnsnuVeGW4Us9xHIVyR5YZL3VNW7ktwiw2i6n05yt2V+rkmfSnLaOOrv1zIMvnRYkte31j4y0e4JSf49yYeq6sQkn8gQzG81bnNirj16LQAbiNAJwKbTWvuXqrpfkudkOLq5S4aBcX67tfaaWTa5PMkvJXlZhlFsK8O9Ln+/tfYT95Bsrf1WVZ2erbcZ2SXD0ciP59q3HVkOL0pywyT/O8mhGQbzOSbDKL09Q+fJGUbvfVaGI74XJXnBOP1Ya+38qrpLkj/KEDKPynAP0PMzjOj7to41ArAG1OJuFQYAAABL55pOAAAAuhE6AQAA6EboBAAAoBuhEwAAgG6ETgAAALoROgEAAOhG6AQAAKAboRMAAIBuhE4AAAC6EToBAADo5v8DkFVr2gsaf1YAAAAASUVORK5CYII=
 "
 >
 </div>
@@ -2535,23 +2602,6 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span>
-</pre></div>
-
-        </div>
-    </div>
-
-</div>
 </div>
 
 </div>

@@ -1886,7 +1886,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">d1</span><span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">],</span> <span class="n">d1</span><span class="p">[</span><span class="s1">&#39;b&#39;</span><span class="p">],</span> <span class="n">d1</span><span class="p">[</span><span class="s1">&#39;c&#39;</span><span class="p">]</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">d1</span><span class="p">[</span><span class="s1">&#39;c&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 
         </div>
@@ -1909,6 +1909,46 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>2</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">d1</span><span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">],</span> <span class="n">d1</span><span class="p">[</span><span class="s1">&#39;b&#39;</span><span class="p">],</span> <span class="n">d1</span><span class="p">[</span><span class="s1">&#39;c&#39;</span><span class="p">]</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>(1, &#39;a&#39;, [1, 2, 3])</pre>
 </div>
 
@@ -1921,7 +1961,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -1938,7 +1978,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
@@ -1960,13 +2000,110 @@ all of MD as it is not optimized for dense, information rich UIs.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>(7, 9, [1, 2, 3])</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">d2</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>dict_keys([&#39;a&#39;, &#39;b&#39;, &#39;c&#39;])</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">d2</span><span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">12</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">d2</span>
+</pre></div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;a&#39;: 12, &#39;b&#39;: 9, &#39;c&#39;: [1, 2, 3]}</pre>
 </div>
 
 </div>
@@ -1996,17 +2133,18 @@ all of MD as it is not optimized for dense, information rich UIs.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
-    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">file1</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;MyFile.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span>
+    <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">file1</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;MyFile.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">encoding</span> <span class="o">=</span> <span class="s1">&#39;latin2&#39;</span><span class="p">)</span>
 <span class="n">count</span><span class="o">=</span><span class="mi">0</span>
 <span class="n">Lines</span> <span class="o">=</span> <span class="n">file1</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">Lines</span><span class="p">:</span>
     <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Line</span><span class="si">{}</span><span class="s2">: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()))</span>
+<span class="n">file1</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
 
         </div>
@@ -2028,56 +2166,56 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Line1: En un lugar de la Mancha, de cuyo nombre no quiero acordarme,
-Line2: no ha mucho tiempo que vivÃ­a un hidalgo de los de lanza en astillero, adarga antigua,
-Line3: rocÃ­n flaco y galgo corredor. Una olla de algo mÃ¡s vaca que carnero,
-Line4: salpicÃ³n las mÃ¡s noches, duelos y quebrantos los sÃ¡bados, lantejas los viernes,
-Line5: algÃºn palomino de aÃ±adidura los domingos, consumÃ­an las tres partes de su hacienda.
-Line6: El resto della concluÃ­an sayo de velarte, calzas de velludo para las fiestas,
-Line7: con sus pantuflos de lo mesmo, y los dÃ­as de entresemana se honraba con su vellorÃ­ de lo mÃ¡s fino.
-Line8: TenÃ­a en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte,
-Line9: y un mozo de campo y plaza, que asÃ­ ensillaba el rocÃ­n como tomaba la podadera.
-Line10: Frisaba la edad de nuestro hidalgo con los cincuenta aÃ±os;
-Line11: era de complexiÃ³n recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza.
-Line12: Quieren decir que tenÃ­a el sobrenombre de Quijada, o Quesada,
+Line2: no ha mucho tiempo que vivĂ­a un hidalgo de los de lanza en astillero, adarga antigua,
+Line3: rocĂ­n flaco y galgo corredor. Una olla de algo mĂĄs vaca que carnero,
+Line4: salpicĂłn las mĂĄs noches, duelos y quebrantos los sĂĄbados, lantejas los viernes,
+Line5: algĂşn palomino de aĂąadidura los domingos, consumĂ­an las tres partes de su hacienda.
+Line6: El resto della concluĂ­an sayo de velarte, calzas de velludo para las fiestas,
+Line7: con sus pantuflos de lo mesmo, y los dĂ­as de entresemana se honraba con su vellorĂ­ de lo mĂĄs fino.
+Line8: TenĂ­a en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte,
+Line9: y un mozo de campo y plaza, que asĂ­ ensillaba el rocĂ­n como tomaba la podadera.
+Line10: Frisaba la edad de nuestro hidalgo con los cincuenta aĂąos;
+Line11: era de complexiĂłn recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza.
+Line12: Quieren decir que tenĂ­a el sobrenombre de Quijada, o Quesada,
 Line13: que en esto hay alguna diferencia en los autores que deste caso escriben; aunque,
-Line14: por conjeturas verosÃ­miles, se deja entender que se llamaba Quejana.
+Line14: por conjeturas verosĂ­miles, se deja entender que se llamaba Quejana.
 Line15: Pero esto importa poco a nuestro cuento;
-Line16: basta que en la narraciÃ³n dÃ©l no se salga un punto de la verdad.
+Line16: basta que en la narraciĂłn dĂŠl no se salga un punto de la verdad.
 Line17: 
 Line18: Es, pues, de saber que este sobredicho hidalgo,
-Line19: los ratos que estaba ocioso, que eran los mÃ¡s del aÃ±o,
-Line20: se daba a leer libros de caballerÃ­as, con tanta aficiÃ³n y gusto,
-Line21: que olvidÃ³ casi de todo punto el ejercicio de la caza,
-Line22: y aun la administraciÃ³n de su hacienda.
-Line23: Y llegÃ³ a tanto su curiosidad y desatino en esto,
-Line24: que vendiÃ³ muchas hanegas de tierra de sembradura para comprar libros de caballerÃ­as en que leer,
-Line25: y asÃ­, llevÃ³ a su casa todos cuantos pudo haber dellos; y de todos,
-Line26: ningunos le parecÃ­an tan bien como los que compuso el famoso Feliciano de Silva,
-Line27: porque la claridad de su prosa y aquellas entricadas razones suyas le parecÃ­an de perlas,
-Line28: y mÃ¡s cuando llegaba a leer aquellos requiebros y cartas de desafÃ­os,
-Line29: donde en muchas partes hallaba escrito: La razÃ³n de la sinrazÃ³n que a mi razÃ³n se hace,
-Line30: de tal manera mi razÃ³n enflaquece, que con razÃ³n me quejo de la vuestra fermosura.
-Line31: Y tambiÃ©n cuando leÃ­a: ...
+Line19: los ratos que estaba ocioso, que eran los mĂĄs del aĂąo,
+Line20: se daba a leer libros de caballerĂ­as, con tanta aficiĂłn y gusto,
+Line21: que olvidĂł casi de todo punto el ejercicio de la caza,
+Line22: y aun la administraciĂłn de su hacienda.
+Line23: Y llegĂł a tanto su curiosidad y desatino en esto,
+Line24: que vendiĂł muchas hanegas de tierra de sembradura para comprar libros de caballerĂ­as en que leer,
+Line25: y asĂ­, llevĂł a su casa todos cuantos pudo haber dellos; y de todos,
+Line26: ningunos le parecĂ­an tan bien como los que compuso el famoso Feliciano de Silva,
+Line27: porque la claridad de su prosa y aquellas entricadas razones suyas le parecĂ­an de perlas,
+Line28: y mĂĄs cuando llegaba a leer aquellos requiebros y cartas de desafĂ­os,
+Line29: donde en muchas partes hallaba escrito: La razĂłn de la sinrazĂłn que a mi razĂłn se hace,
+Line30: de tal manera mi razĂłn enflaquece, que con razĂłn me quejo de la vuestra fermosura.
+Line31: Y tambiĂŠn cuando leĂ­a: ...
 Line32: los altos cielos que de vuestra divinidad divinamente con las estrellas os fortifican,
 Line33: y os hacen merecedora del merecimiento que merece la vuestra grandeza.
 Line34: 
-Line35: Con estas razones perdÃ­a el pobre caballero el juicio,
-Line36: y desvelÃ¡base por entenderlas y desentraÃ±arles el sentido,
-Line37: que no se lo sacara ni las entendiera el mesmo AristÃ³teles,
-Line38: si resucitara para sÃ³lo ello. No estaba muy bien con las heridas que don BelianÃ­s daba y recebÃ­a,
+Line35: Con estas razones perdĂ­a el pobre caballero el juicio,
+Line36: y desvelĂĄbase por entenderlas y desentraĂąarles el sentido,
+Line37: que no se lo sacara ni las entendiera el mesmo AristĂłteles,
+Line38: si resucitara para sĂłlo ello. No estaba muy bien con las heridas que don BelianĂ­s daba y recebĂ­a,
 Line39: porque se imaginaba que, por grandes maestros que le hubiesen curado,
-Line40: no dejarÃ­a de tener el rostro y todo el cuerpo lleno de cicatrices y seÃ±ales.
+Line40: no dejarĂ­a de tener el rostro y todo el cuerpo lleno de cicatrices y seĂąales.
 Line41: Pero, con todo, alababa en su autor aquel acabar su libro con la promesa de aquella inacabable aventura,
 Line42: y muchas veces le vino deseo de tomar la pluma y dalle fin al pie de la letra,
-Line43: como allÃ­ se promete; y sin duda alguna lo hiciera, y aun saliera con ello,
+Line43: como allĂ­ se promete; y sin duda alguna lo hiciera, y aun saliera con ello,
 Line44: si otros mayores y continuos pensamientos no se lo estorbaran.
-Line45: Tuvo muchas veces competencia con el cura de su lugar â€”que era hombre docto,
-Line46: graduado en SigÃ¼enzaâ€”, sobre cuÃ¡l habÃ­a sido mejor caballero:
-Line47: PalmerÃ­n de Ingalaterra o AmadÃ­s de Gaula; mas maese NicolÃ¡s,
-Line48: barbero del mesmo pueblo, decÃ­a que ninguno llegaba al Caballero del Febo,
-Line49: y que si alguno se le podÃ­a comparar, era don Galaor, hermano de AmadÃ­s de Gaula,
-Line50: porque tenÃ­a muy acomodada condiciÃ³n para todo; que no era caballero melindroso,
-Line51: ni tan llorÃ³n como su hermano, y que en lo de la valentÃ­a no le iba en zaga.
+Line45: Tuvo muchas veces competencia con el cura de su lugar âque era hombre docto,
+Line46: graduado en SigĂźenzaâ, sobre cuĂĄl habĂ­a sido mejor caballero:
+Line47: PalmerĂ­n de Ingalaterra o AmadĂ­s de Gaula; mas maese NicolĂĄs,
+Line48: barbero del mesmo pueblo, decĂ­a que ninguno llegaba al Caballero del Febo,
+Line49: y que si alguno se le podĂ­a comparar, era don Galaor, hermano de AmadĂ­s de Gaula,
+Line50: porque tenĂ­a muy acomodada condiciĂłn para todo; que no era caballero melindroso,
+Line51: ni tan llorĂłn como su hermano, y que en lo de la valentĂ­a no le iba en zaga.
 </pre>
 </div>
 </div>
