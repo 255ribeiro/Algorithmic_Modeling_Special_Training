@@ -92,10 +92,12 @@ nav:
       - numpy: Python_Training\cientif_py\numpy_intro.ipynb
       - matplotlib: Python_Training\cientif_py\matplotlib_intro.ipynb
       - scipy: Python_Training\cientif_py\scipy_intro.ipynb
+      - class file: Python_Training\cientif_py\class_examples__2022_04_01.ipynb
       - pandas:
             - Basic consepts (prerequisites): Python_Training\dados_py\basic_concepts.ipynb
             - Introduction pt1: Python_Training\dados_py\pandas_intro.ipynb
-            - Introduction pt1: Python_Training\dados_py\pandas_intro_02.ipynb
+            - Introduction pt2: Python_Training\dados_py\pandas_intro_02.ipynb
+            - Introduction pt3: Python_Training\dados_py\pandas_intro_03.ipynb
       - Geopandas: Python_Training\geo_py\geopandas.md
       - Google Earth Engine:
             - Introduction and instalation: Python_Training\geo_py\geemap.md
@@ -115,7 +117,7 @@ extra_css:
 
 plugins:
   - mkdocs-jupyter:
-      execute: True
+      #execute: True
       include_source: True
       
 
