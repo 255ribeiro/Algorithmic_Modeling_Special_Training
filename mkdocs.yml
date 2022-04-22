@@ -98,6 +98,11 @@ nav:
             - Introduction pt1: Python_Training\dados_py\pandas_intro.ipynb
             - Introduction pt2: Python_Training\dados_py\pandas_intro_02.ipynb
             - Introduction pt3: Python_Training\dados_py\pandas_intro_03.ipynb
+            - Introduction pt4: Python_Training\dados_py\pandas_intro_04.ipynb
+            - Pandas an pathlib pt1: Python_Training\pandas_pathlib\pathlib_tests.ipynb
+            - Pandas an pathlib pt2: Python_Training\pandas_pathlib\fix_separator.ipynb
+            - Pandas an pathlib pt3: Python_Training\pandas_pathlib\Multi_data_values.ipynb
+        
       - Geopandas: Python_Training\geo_py\geopandas.md
       - Google Earth Engine:
             - Introduction and instalation: Python_Training\geo_py\geemap.md
