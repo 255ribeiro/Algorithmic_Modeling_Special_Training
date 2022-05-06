@@ -102,6 +102,8 @@ nav:
             - Pandas an pathlib pt1: Python_Training\pandas_pathlib\pathlib_tests.ipynb
             - Pandas an pathlib pt2: Python_Training\pandas_pathlib\fix_separator.ipynb
             - Pandas an pathlib pt3: Python_Training\pandas_pathlib\Multi_data_values.ipynb
+
+      - GUI interfaces with TKinter: Python_Training\tkinter\TK_examples.ipynb
         
       - Geopandas: Python_Training\geo_py\geopandas.md
       - Google Earth Engine:
