@@ -104,6 +104,10 @@ nav:
             - Pandas an pathlib pt3: Python_Training\pandas_pathlib\Multi_data_values.ipynb
 
       - GUI interfaces with TKinter: Python_Training\tkinter\TK_examples.ipynb
+
+      - GUI interfaces with PyQt5:
+            - Basic setup: Python_Training\pyqt5\pyqt_examples.ipynb
+            - Message Boxes: Python_Training\pyqt5\message_box.py
         
       - Geopandas: Python_Training\geo_py\geopandas.md
       - Google Earth Engine:
