@@ -19,7 +19,7 @@ class DlgMain(QDialog):
         msgDiskFull.setIcon(QMessageBox.Information)
         msgDiskFull.setWindowTitle("Full Drive")
         msgDiskFull.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        msgDiskFull.setDefaultButton(QMessageBox)
+        msgDiskFull.setDefaultButton(QMessageBox.Ok)
         msgDiskFull.event
         res = msgDiskFull.exec_()
         print(res)
