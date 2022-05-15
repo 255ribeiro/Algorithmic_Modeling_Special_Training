@@ -12,13 +12,18 @@ class DlgMain(QDialog):
         self.btn1.move(100,35)
         self.btn1.clicked.connect(self.evt_btn1_clicked)
 
-        self.btn2 = QPushButton('Open Multiple files', self)
+        self.btn2 = QPushButton('Open files', self)
         self.btn2.move(100,75)
         self.btn2.clicked.connect(self.evt_btn2_clicked)
 
         self.btn3 = QPushButton('New file', self)
         self.btn3.move(100,115)
         self.btn3.clicked.connect(self.evt_btn3_clicked)
+
+        self.btn4 = QPushButton('Select folder', self)
+        self.btn4.move(100,155)
+        self.btn4.clicked.connect(self.evt_btn4_clicked)
+
 
 
     def evt_btn1_clicked(self):
@@ -33,6 +38,12 @@ class DlgMain(QDialog):
     def evt_btn3_clicked(self):
         res = QFileDialog.getSaveFileName(self, "Save File", "D:/gitrepos", "JPG File (*.jpg);;PNG Files (*.png);;ALL (*.*)")
         print(res)
+
+    def evt_btn4_clicked(self):
+        res = QFileDialog.getExistingDirectory(self, "Select folder", "C:/")
+        print(res)
+
+
 
 
 if __name__ == "__main__":
