@@ -25,20 +25,22 @@ class DlgMain(QDialog):
         self.btn4.clicked.connect(self.evt_btn4_clicked)
 
 
-
+    # Select file
     def evt_btn1_clicked(self):
         res = QFileDialog.getOpenFileName(self, "Open File", "C:/", "JPG File (*.jpg);;PNG Files (*.png);;ALL (*.*)")
         print(res)
 
-
+    # select files
     def evt_btn2_clicked(self):
         res = QFileDialog.getOpenFileNames(self, "Open Files", "C:/Users", "JPG File (*.jpg);;PNG Files (*.png);;ALL (*.*)")
         print(res)
 
+    # save file
     def evt_btn3_clicked(self):
         res = QFileDialog.getSaveFileName(self, "Save File", "D:/gitrepos", "JPG File (*.jpg);;PNG Files (*.png);;ALL (*.*)")
         print(res)
 
+    # select folder
     def evt_btn4_clicked(self):
         res = QFileDialog.getExistingDirectory(self, "Select folder", "C:/")
         print(res)
