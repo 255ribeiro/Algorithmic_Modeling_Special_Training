@@ -93,6 +93,7 @@ nav:
       - matplotlib: Python_Training\cientif_py\matplotlib_intro.ipynb
       - scipy: Python_Training\cientif_py\scipy_intro.ipynb
       - class file: Python_Training\cientif_py\class_examples__2022_04_01.ipynb
+      - Basics of OOP: Python_Training\OOP\oop_intro.ipynb
       - pandas:
             - Basic consepts (prerequisites): Python_Training\dados_py\basic_concepts.ipynb
             - Introduction pt1: Python_Training\dados_py\pandas_intro.ipynb
