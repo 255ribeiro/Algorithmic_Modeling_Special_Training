@@ -8,7 +8,7 @@
 
 4. You will need to login or create a account to download.
 
-5. After download, look for your license key in the e-mail you use in your account.
+5. After download, look for your license key in the e-mail you used in your account.
 
 6. insert the license key.
 
