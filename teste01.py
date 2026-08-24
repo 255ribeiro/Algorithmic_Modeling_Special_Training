@@ -21,9 +21,3 @@ elif idade >= 16:
     print('vote com sabedoria')
 else:
     print('Vá curtitr sua infância')
-    
-
-
-    
-
-
